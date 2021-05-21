@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body onload="onload();">
+    <div class="flex-body">
+        <div class="main-body">
+            <div class="upper-body">
+                <div class="display" id="display">00000000</div>
+            </div>
+            <div class="lower-body">
+                <div class="number-buttons">
+                    <div class="line">
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">1</div>
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">2</div>
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">3</div>
+                    </div>
+                    <div class="line">
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">4</div>
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">5</div>
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">6</div>
+                    </div>
+                    <div class="line">
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">7</div>
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">8</div>
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">9</div>
+                    </div>
+                    <div class="line">
+                        <div onclick="outFunctions.updateDisplay(this.innerHTML)" class="button">0</div>
+                    </div>
+                </div>
+                <div class="operation-buttons">
+                    <div onclick="outFunctions.clearAll()" class="button">AC</div>
+                    <div onclick="outFunctions.clear()" class="button">C</div>
+                    <div onclick="outFunctions.updateOperator(this.innerHTML)" class="button">+</div>
+                    <div onclick="outFunctions.updateOperator(this.innerHTML)" class="button">-</div>
+                    <div onclick="outFunctions.updateOperator(this.innerHTML)" class="button">*</div>
+                    <div onclick="outFunctions.updateOperator(this.innerHTML)" class="button">/</div>
+                    <div onclick="outFunctions.solve()" class="button">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
