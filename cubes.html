@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="./practice/cubes/three.js"></script>
+    <script>
+        // Our Javascript will go here.
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer();
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement)
+
+        const geometry = new THREE.BoxGeometry();
+        const material = new THREE.MeshStandardMaterial();
+        material.metalness = 0.7;
+        material.color = new THREE.Color('#808080')
+        const cube = new THREE.Mesh(geometry, material);
+
+        const pointLight = new THREE.PointLight('#808080', 2);
+        scene.add(pointLight);
+        pointLight.position.set(0, 0, 4)
+
+
+        const cubes = [];
+        for (let i = Math.random() * 5000; i > 0; i--) {
+            const cubo = new THREE.Mesh(geometry, material);
+            cubes.push(cubo);
+            scene.add(cubo);
+
+            cubo.position.x = -5;
+            cubo.position.y = -3;
+
+            cubo.position.x += Math.random() * 10;
+            cubo.position.y += Math.random() * 6;
+            cubo.position.z = Math.random() * 2;
+        }
+
+        scene.add(cube);
+
+        camera.position.z = 5;
+
+        function animate() {
+            requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+
+            for (cubo of cubes) {
+                cubo.rotation.x += 0.01;
+                cubo.rotation.y += 0.01;
+            }
+        }
+        animate();
+    </script>
+</body>
+
+</html>
