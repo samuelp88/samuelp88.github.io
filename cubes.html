@@ -22,7 +22,7 @@
         let renderer = new THREE.WebGLRenderer();
 
         //Scene
-        scene.background = new THREE.Color('#36c7f2')
+        //scene.background = new THREE.Color('#36c7f2')
 
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
@@ -30,22 +30,34 @@
         let loader = new GLTFLoader();
 
         let obj;
-        loader.load('./Block.gltf', (gltf) => {
+        loader.load('./Scene.gltf', (gltf) => {
             scene.add(gltf.scene)
             obj = gltf.scene;
             animate();
+            obj.rotation.y = -1.5;0xb3e8ff
         })
+        let hemisphere = new THREE.HemisphereLight( 0xb3e8ff, 0x00b2ff, 0.5 );
+        scene.add(hemisphere);
 
-        let light = new THREE.PointLight(0xFFFFFF, 1, 100)
-        light.position.set(0,5,10)
-        scene.add(light);
-        camera.position.set(0.5,2.5,10);
+        let light = new THREE.DirectionalLight( 0xffffff, 0.5 );
+        const helper = new THREE.DirectionalLightHelper( light, 5 );
+        scene.add(light)
+
+        light.position.set(1,5,10)
+
+        
+
+        
+        camera.position.set(-3,2,10);
+
+        obj.rotation;
 
         function animate() {
             requestAnimationFrame(animate);
             renderer.render(scene, camera);
 
             obj.rotation.y += 0.01;
+            obj.rotation.z += 0.0001;
         }
 
         
