@@ -3,6 +3,8 @@ window.onload = function () {
     let ctx = canvas.getContext('2d');
     let image = document.getElementById('image');
     let map = document.getElementById('map');
+    
+    
     const audio = new Audio('./assets/sounds/narkaman.mp3');
     const audio2 = new Audio('./assets/sounds/switch.mp3');
     let time = 0;

@@ -1,0 +1,17 @@
+
+
+body {
+    background-color: white;    
+    filter:brightness(0.5);
+}
+
+.popup {
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+    height: 100;
+    width: 100vw;
+}

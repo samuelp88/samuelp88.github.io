@@ -5,7 +5,8 @@
 body {
     padding: 1;
     margin: 0;
-    overflow: hidden;
+    height: 5000px;
+    overflow: auto;
 }
 
 .flex-body {
@@ -106,4 +107,30 @@ body {
     display: flex;
     flex-grow: 1;
 }
+
+.popup-shadow {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.video {
+    border-radius: 50%;
+}
+
+.popup {
+    position: fixed;
+    border: 2px solid red;
+    left: 50%;
+    top: 10%;
+    margin-left: -200px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    z-index: 999;
+}
+
+
 

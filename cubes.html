@@ -15,7 +15,8 @@
     <script src="./practice/cubes/three.js"></script>
     <script type="module" src="./practice/cubes/GLTFLoader.js"></script>
     <script type="module">
-        import {GLTFLoader} from "./practice/cubes/GLTFLoader.js"
+        import { GLTFLoader } from "./practice/cubes/GLTFLoader.js"
+        import { OrbitControls } from "./practice/cubes/OrbitControls.js"
 
         let scene = new THREE.Scene();
         let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.01, 1000)
@@ -25,6 +26,8 @@
         //scene.background = new THREE.Color('#36c7f2')
 
         renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
         document.body.appendChild(renderer.domElement);
 
         let loader = new GLTFLoader();
@@ -34,33 +37,39 @@
             scene.add(gltf.scene)
             obj = gltf.scene;
             animate();
-            obj.rotation.y = -1.5;0xb3e8ff
         })
-        let hemisphere = new THREE.HemisphereLight( 0xb3e8ff, 0x00b2ff, 0.5 );
+        let hemisphere = new THREE.HemisphereLight(0xb3e8ff, 0x00b2ff, 0.5);
         scene.add(hemisphere);
 
-        let light = new THREE.DirectionalLight( 0xffffff, 0.5 );
-        const helper = new THREE.DirectionalLightHelper( light, 5 );
+        let light = new THREE.DirectionalLight(0xFFFF99, 1);
+        const helper = new THREE.DirectionalLightHelper(light, 1);
+        light.castShadow = true;
+        //Set up shadow properties for the light
+        light.shadow.mapSize.width = 512; // default
+        light.shadow.mapSize.height = 512; // default
+        light.shadow.camera.near = 0.5; // default
+        light.shadow.camera.far = 500; // default
         scene.add(light)
 
-        light.position.set(1,5,10)
+        light.position.set(0, 5, 5)
 
-        
 
-        
-        camera.position.set(-3,2,10);
+        const controls = new OrbitControls(camera, renderer.domElement);
+
+
+
+
+
+        camera.position.set(5, 2, 10);
 
         obj.rotation;
 
         function animate() {
             requestAnimationFrame(animate);
             renderer.render(scene, camera);
-
-            obj.rotation.y += 0.01;
-            obj.rotation.z += 0.0001;
         }
 
-        
+
     </script>
 </body>
 
