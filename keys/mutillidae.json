@@ -1,0 +1,31 @@
+{
+  "step_1": {
+    "trait_description": "Forma do tórax (mesossoma)",
+    "options": [
+      {
+        "id": "opt_1a",
+        "description": "Tórax arredondado, sem espinhos laterais",
+        "images": [],
+        "next_step": null,
+        "taxon_result": {
+          "scientific_name": "Traumatomutilla sp.",
+          "taxonomic_level": "Gênero",
+          "common_name": "Formiga-de-veludo",
+          "next_key_file": null
+        }
+      },
+      {
+        "id": "opt_1b",
+        "description": "Tórax com espinhos laterais distintos",
+        "images": [],
+        "next_step": null,
+        "taxon_result": {
+          "scientific_name": "Pseudomethoca sp.",
+          "taxonomic_level": "Gênero",
+          "common_name": "Formiga-de-veludo",
+          "next_key_file": null
+        }
+      }
+    ]
+  }
+}

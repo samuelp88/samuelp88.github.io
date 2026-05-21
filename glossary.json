@@ -1,0 +1,30 @@
+{
+  "tórax": {
+    "definition": "Segmento médio do corpo dos insetos (mesossoma), localizado entre a cabeça e o abdômen. Suporta as pernas e asas.",
+    "image": null
+  },
+  "mesossoma": {
+    "definition": "Região mediana do corpo das vespas (Hymenoptera). Inclui o propódeo fusionado ao tórax verdadeiro.",
+    "image": null
+  },
+  "pedicelo": {
+    "definition": "Estrutura estreita que une o tórax ao abdômen. Nos Hymenoptera pode ter um nó (pecíolo) ou dois (pecíolo + pós-pecíolo).",
+    "image": null
+  },
+  "áptera": {
+    "definition": "Sem asas. Fêmeas de Mutillidae são ápteras e apresentam mimetismo com formigas.",
+    "image": null
+  },
+  "metassoma": {
+    "definition": "Abdômen das vespas. Corresponde aos segmentos posteriores ao propódeo nos Hymenoptera.",
+    "image": null
+  },
+  "ferrão": {
+    "definition": "Estrutura de defesa derivada do ovipositor. Presente nas fêmeas de muitos Hymenoptera (abelhas, vespas, Mutillidae).",
+    "image": null
+  },
+  "pecíolo": {
+    "definition": "Primeiro segmento estreitado da cintura dos Hymenoptera. Formigas e vespas apresentam um ou dois nós no pecíolo.",
+    "image": null
+  }
+}

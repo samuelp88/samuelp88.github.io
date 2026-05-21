@@ -1,0 +1,79 @@
+{
+  "step_1": {
+    "trait_description": "Número de asas presentes no espécime",
+    "options": [
+      {
+        "id": "opt_1a",
+        "description": "Quatro asas membranosas presentes",
+        "images": [],
+        "next_step": "step_2",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_1b",
+        "description": "Sem asas (áptera)",
+        "images": [],
+        "next_step": "step_3",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_2": {
+    "trait_description": "Formato da cintura (pedicelo)",
+    "options": [
+      {
+        "id": "opt_2a",
+        "description": "Cintura com um nó (pecíolo simples)",
+        "images": [],
+        "next_step": null,
+        "taxon_result": {
+          "scientific_name": "Formicidae",
+          "taxonomic_level": "Família",
+          "common_name": "Formigas",
+          "next_key_file": null
+        }
+      },
+      {
+        "id": "opt_2b",
+        "description": "Cintura sem nó evidente, metassoma séssil",
+        "images": [],
+        "next_step": null,
+        "taxon_result": {
+          "scientific_name": "Apidae",
+          "taxonomic_level": "Família",
+          "common_name": "Abelhas",
+          "next_key_file": null
+        }
+      }
+    ]
+  },
+  "step_3": {
+    "trait_description": "Presença de ferrão visível e pilosidade",
+    "options": [
+      {
+        "id": "opt_3a",
+        "description": "Ferrão visível, corpo coberto por densa pilosidade prateada ou dourada",
+        "images": [],
+        "next_step": null,
+        "taxon_result": {
+          "scientific_name": "Mutillidae",
+          "taxonomic_level": "Família",
+          "common_name": "Formigas-de-veludo",
+          "next_key_file": "/keys/mutillidae.json"
+        }
+      },
+      {
+        "id": "opt_3b",
+        "description": "Sem ferrão visível, corpo delgado sem pilosidade densa",
+        "images": [],
+        "next_step": null,
+        "taxon_result": {
+          "scientific_name": "Formicidae",
+          "taxonomic_level": "Família",
+          "common_name": "Formigas",
+          "next_key_file": null
+        }
+      }
+    ]
+  }
+}
