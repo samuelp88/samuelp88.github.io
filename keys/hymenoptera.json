@@ -1,21 +1,27 @@
 {
+  "meta": {
+    "name": "Neotropical Hymenoptera",
+    "taxonomic_level": "Ordem",
+    "description": "Chave para as superfamílias neotropicais de Hymenoptera"
+  },
   "step_1": {
     "trait_description": "Presença de asas anteriores",
     "options": [
       {
         "id": "opt_1a",
-        "description": "Asas anteriores estendendo-se além do ápice do tórax ou mesossoma (alados)",
-        "images": ["/assets/images/fig_10_1a.png"],
+        "description": "Asas anteriores estendendo-se além do ápice do tórax ou mesossoma (alados) (Fig. 10.1A)",
         "next_step": "step_2",
         "taxon_result": null
       },
       {
         "id": "opt_1b",
-        "description": "Asas ausentes, ou não se estendem além do ápice do tórax (braquípteros)",
-        "images": ["/assets/images/fig_10_1b.png"],
+        "description": "Asas ausentes, ou não se estendem além do ápice do tórax (braquípteros) (Fig. 10.1B)",
         "next_step": "step_46",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_1.jpg"
     ]
   },
   "step_2": {
@@ -23,18 +29,19 @@
     "options": [
       {
         "id": "opt_2a",
-        "description": "Corpo, em vista dorsal, sem constrição marcada entre mesossoma (tórax) e metassoma (abdome), ou com constrição leve",
-        "images": ["/assets/images/fig_10_2A.jpg", "/assets/images/fig_10_2B.jpg"],
+        "description": "Corpo, em vista dorsal, sem constrição marcada entre mesossoma (tórax) e metassoma (abdome), ou com constrição leve (Fig. 10.2A, Fig. 10.2B)",
         "next_step": "step_3",
         "taxon_result": null
       },
       {
         "id": "opt_2b",
-        "description": "Corpo com constrição marcada entre mesossoma e metassoma (abdome) [Apocrita]",
-        "images": ["/assets/images/fig_10_2C.jpg"],
+        "description": "Corpo com constrição marcada entre mesossoma e metassoma (abdome) [Apocrita] (Fig. 10.2C)",
         "next_step": "step_10",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_2.jpg"
     ]
   },
   "step_3": {
@@ -42,18 +49,19 @@
     "options": [
       {
         "id": "opt_3a",
-        "description": "Asa anterior sem células fechadas e com uma ou duas veias; corpo com comprimento menor que 3 mm",
-        "images": ["/assets/images/fig_10_3A.jpg"],
+        "description": "Asa anterior sem células fechadas e com uma ou duas veias; corpo com comprimento menor que 3 mm (Fig. 10.3A)",
         "next_step": null,
         "taxon_result": "alguns CHALCIDOIDEA"
       },
       {
         "id": "opt_3b",
-        "description": "Asa anterior com numerosas células e veias; corpo com comprimento maior que 3 mm [<<Symphyta>>]",
-        "images": ["/assets/images/fig_10_3B.jpg"],
+        "description": "Asa anterior com numerosas células e veias; corpo com comprimento maior que 3 mm [<<Symphyta>>] (Fig. 10.3B)",
         "next_step": "step_4",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_3.jpg"
     ]
   },
   "step_4": {
@@ -61,18 +69,19 @@
     "options": [
       {
         "id": "opt_4a",
-        "description": "Mesonoto dividido por um sulco transversal quase reto",
-        "images": ["/assets/images/fig_10_4A.jpg"],
+        "description": "Mesonoto dividido por um sulco transversal quase reto (Fig. 10.4A)",
         "next_step": "step_5",
         "taxon_result": null
       },
       {
         "id": "opt_4b",
-        "description": "Mesonoto não dividido por um sulco transversal",
-        "images": ["/assets/images/fig_10_4B.jpg"],
+        "description": "Mesonoto não dividido por um sulco transversal (Fig. 10.4B)",
         "next_step": "step_6",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_4.jpg"
     ]
   },
   "step_5": {
@@ -80,18 +89,19 @@
     "options": [
       {
         "id": "opt_5a",
-        "description": "Tórulos na parte inferior do rostro, próximos às peças bucais; cabeça com coroa de protuberâncias próximas ao ocelo médio; tergo abdominal 1 não dividido medialmente; tergos abdominais lateralmente arredondados",
-        "images": ["/assets/images/fig_10_5A.jpg", "/assets/images/fig_10_5C.jpg", "/assets/images/fig_10_5E.jpg", "/assets/images/fig_10_5F.jpg"],
+        "description": "Tórulos na parte inferior do rostro, próximos às peças bucais; cabeça com coroa de protuberâncias próximas ao ocelo médio; tergo abdominal 1 não dividido medialmente; tergos abdominais lateralmente arredondados (Fig. 10.5A, Fig. 10.5C, Fig. 10.5E, Fig. 10.5F)",
         "next_step": null,
         "taxon_result": "ORUSSOIDEA"
       },
       {
         "id": "opt_5b",
-        "description": "Tórulos na parte medial do rostro, cabeça sem coroa de protuberâncias; tergo abdominal 1 dividido medialmente; tergos abdominais angulados lateralmente",
-        "images": ["/assets/images/fig_10_5B.jpg", "/assets/images/fig_10_5D.jpg", "/assets/images/fig_10_5G.jpg", "/assets/images/fig_10_5H.jpg"],
+        "description": "Tórulos na parte medial do rostro, cabeça sem coroa de protuberâncias; tergo abdominal 1 dividido medialmente; tergos abdominais angulados lateralmente (Fig. 10.5B, Fig. 10.5D, Fig. 10.5G, Fig. 10.5H)",
         "next_step": null,
         "taxon_result": "XYPHYDRIOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_5.jpg"
     ]
   },
   "step_6": {
@@ -99,18 +109,19 @@
     "options": [
       {
         "id": "opt_6a",
-        "description": "Protíbia com dois esporões apicais, o menor ao menos metade do comprimento do maior (ovipositor em forma de folha e geralmente curto)",
-        "images": ["/assets/images/fig_10_6A.jpg"],
+        "description": "Protíbia com dois esporões apicais, o menor ao menos metade do comprimento do maior (ovipositor em forma de folha e geralmente curto) (Fig. 10.6A)",
         "next_step": "step_7",
         "taxon_result": null
       },
       {
         "id": "opt_6b",
-        "description": "Protíbia com um esporão apical (ovipositor geralmente longo e delgado)",
-        "images": ["/assets/images/fig_10_6B.jpg"],
+        "description": "Protíbia com um esporão apical (ovipositor geralmente longo e delgado) (Fig. 10.6B)",
         "next_step": "step_9",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_6.jpg"
     ]
   },
   "step_7": {
@@ -118,18 +129,19 @@
     "options": [
       {
         "id": "opt_7a",
-        "description": "Asa anterior com a veia longitudinal Sc entre C e R (às vezes R e Sc se tocam)",
-        "images": ["/assets/images/fig_10_7A.jpg"],
+        "description": "Asa anterior com a veia longitudinal Sc entre C e R (às vezes R e Sc se tocam) (Fig. 10.7A)",
         "next_step": "step_8",
         "taxon_result": null
       },
       {
         "id": "opt_7b",
-        "description": "Asa anterior sem a veia longitudinal Sc; metatíbia sem esporões pré-apicais ou com um; pronoto em vista dorsal com a margem posterior fortemente côncava",
-        "images": ["/assets/images/fig_10_7B.jpg", "/assets/images/fig_10_7C.jpg"],
+        "description": "Asa anterior sem a veia longitudinal Sc; metatíbia sem esporões pré-apicais ou com um; pronoto em vista dorsal com a margem posterior fortemente côncava (Fig. 10.7B, Fig. 10.7C)",
         "next_step": null,
         "taxon_result": "TENTHREDINOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_7.jpg"
     ]
   },
   "step_8": {
@@ -137,18 +149,19 @@
     "options": [
       {
         "id": "opt_8a",
-        "description": "Primeiro flagelômero uma a quatro vezes mais longo que o restante dos flagelômeros juntos",
-        "images": ["/assets/images/fig_10_8A.jpg"],
+        "description": "Primeiro flagelômero uma a quatro vezes mais longo que o restante dos flagelômeros juntos (Fig. 10.8A)",
         "next_step": null,
         "taxon_result": "XYELOIDEA"
       },
       {
         "id": "opt_8b",
-        "description": "Primeiro flagelômero menos de três vezes o comprimento combinado dos três flagelômeros seguintes",
-        "images": ["/assets/images/fig_10_8B.jpg"],
+        "description": "Primeiro flagelômero menos de três vezes o comprimento combinado dos três flagelômeros seguintes (Fig. 10.8B)",
         "next_step": null,
         "taxon_result": "PAMPHILIOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_8.jpg"
     ]
   },
   "step_9": {
@@ -156,18 +169,19 @@
     "options": [
       {
         "id": "opt_9a",
-        "description": "Último tergo da fêmea e último esterno do macho com projeções cilíndricas, medianas e apicais com ponta côncava",
-        "images": ["/assets/images/fig_10_9A.jpg", "/assets/images/fig_10_9B.jpg", "/assets/images/fig_10_9C.jpg", "/assets/images/fig_10_9D.jpg"],
+        "description": "Último tergo da fêmea e último esterno do macho com projeções cilíndricas, medianas e apicais com ponta côncava (Fig. 10.9A, Fig. 10.9B, Fig. 10.9C, Fig. 10.9D)",
         "next_step": null,
         "taxon_result": "SIRICOIDEA"
       },
       {
         "id": "opt_9b",
-        "description": "Último tergo e esterno de ambos os sexos delgados apicalmente e sem projeções cilíndricas",
-        "images": ["/assets/images/fig_10_9E.jpg"],
+        "description": "Último tergo e esterno de ambos os sexos delgados apicalmente e sem projeções cilíndricas (Fig. 10.9E)",
         "next_step": null,
         "taxon_result": "CEPHOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_9.jpg"
     ]
   },
   "step_10": {
@@ -175,18 +189,19 @@
     "options": [
       {
         "id": "opt_10a",
-        "description": "Cabeça com coroa de dentes ao redor dos ocelos médios; metacoxa larga na base",
-        "images": ["/assets/images/fig_10_10A.jpg", "/assets/images/fig_10_10B.jpg"],
+        "description": "Cabeça com coroa de dentes ao redor dos ocelos médios; metacoxa larga na base (Fig. 10.10A, Fig. 10.10B)",
         "next_step": null,
         "taxon_result": "STEPHANOIDEA"
       },
       {
         "id": "opt_10b",
-        "description": "Cabeça sem coroa de dentes ao redor do ocelo médio; metacoxa estreitando-se na base",
-        "images": ["/assets/images/fig_10_10C.jpg"],
+        "description": "Cabeça sem coroa de dentes ao redor do ocelo médio; metacoxa estreitando-se na base (Fig. 10.10C)",
         "next_step": "step_11",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_10.jpg"
     ]
   },
   "step_11": {
@@ -194,18 +209,19 @@
     "options": [
       {
         "id": "opt_11a",
-        "description": "Espaço malar com uma depressão profunda que recebe o escapo (margem superior geralmente carenada); mesoscuto com axila grande, triangular, tão grande quanto o escutelo, e com sulco médio; corpo maior que 3 mm; antena com 12 flagelômeros",
-        "images": ["/assets/images/fig_10_11A.jpg", "/assets/images/fig_10_11B.jpg"],
+        "description": "Espaço malar com uma depressão profunda que recebe o escapo (margem superior geralmente carenada); mesoscuto com axila grande, triangular, tão grande quanto o escutelo, e com sulco médio; corpo maior que 3 mm; antena com 12 flagelômeros (Fig. 10.11A, Fig. 10.11B)",
         "next_step": null,
         "taxon_result": "MEGALYROIDEA"
       },
       {
         "id": "opt_11b",
         "description": "Espaço malar sem nenhuma depressão; se apresenta axila triangular grande e sulco médio, comprimento do corpo menor que 3 mm; antena raramente com 12 flagelômeros",
-        "images": [],
         "next_step": "step_12",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_11.jpg"
     ]
   },
   "step_12": {
@@ -213,18 +229,19 @@
     "options": [
       {
         "id": "opt_12a",
-        "description": "Asa anterior com três ou mais células fechadas; corpo geralmente com mais de 5 mm de comprimento",
-        "images": ["/assets/images/fig_10_12A.jpg"],
+        "description": "Asa anterior com três ou mais células fechadas; corpo geralmente com mais de 5 mm de comprimento (Fig. 10.12A)",
         "next_step": "step_13",
         "taxon_result": null
       },
       {
         "id": "opt_12b",
-        "description": "Asa anterior com duas ou menos células fechadas, venação reduzida ou ausente; corpo raramente com mais de 5 mm de comprimento",
-        "images": ["/assets/images/fig_10_12B.jpg", "/assets/images/fig_10_12C.jpg"],
+        "description": "Asa anterior com duas ou menos células fechadas, venação reduzida ou ausente; corpo raramente com mais de 5 mm de comprimento (Fig. 10.12B, Fig. 10.12C)",
         "next_step": "step_31",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_12.jpg"
     ]
   },
   "step_13": {
@@ -232,18 +249,19 @@
     "options": [
       {
         "id": "opt_13a",
-        "description": "Asa anterior sem estigma",
-        "images": ["/assets/images/fig_10_13A.jpg"],
+        "description": "Asa anterior sem estigma (Fig. 10.13A)",
         "next_step": "step_14",
         "taxon_result": null
       },
       {
         "id": "opt_13b",
-        "description": "Asa anterior com estigma",
-        "images": ["/assets/images/fig_10_13B.jpg"],
+        "description": "Asa anterior com estigma (Fig. 10.13B)",
         "next_step": "step_16",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_13.jpg"
     ]
   },
   "step_14": {
@@ -251,18 +269,19 @@
     "options": [
       {
         "id": "opt_14a",
-        "description": "Asa anterior com ao menos 5 células fechadas",
-        "images": ["/assets/images/fig_10_14A.jpg"],
+        "description": "Asa anterior com ao menos 5 células fechadas (Fig. 10.14A)",
         "next_step": "step_15",
         "taxon_result": null
       },
       {
         "id": "opt_14b",
-        "description": "Asa anterior com apenas 3 ou 4 células fechadas",
-        "images": ["/assets/images/fig_10_14B.jpg"],
+        "description": "Asa anterior com apenas 3 ou 4 células fechadas (Fig. 10.14B)",
         "next_step": "step_31",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_14.jpg"
     ]
   },
   "step_15": {
@@ -270,18 +289,19 @@
     "options": [
       {
         "id": "opt_15a",
-        "description": "Profêmur fortemente alargado, tão largo ou mais que o metafêmur; antena com 18 ou mais flagelômeros; tórulos abaixo de uma projeção transversa na extremidade frontal da cabeça prognata [Sclerogibbidae]",
-        "images": ["/assets/images/fig_10_15A.jpg", "/assets/images/fig_10_15B.jpg"],
+        "description": "Profêmur fortemente alargado, tão largo ou mais que o metafêmur; antena com 18 ou mais flagelômeros; tórulos abaixo de uma projeção transversa na extremidade frontal da cabeça prognata [Sclerogibbidae] (Fig. 10.15A, Fig. 10.15B)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_15b",
-        "description": "Profêmur menor que o metafêmur; antena com 10 ou mais flagelômeros; tórulos próximos à parte média da cabeça e não abaixo de uma projeção transversa",
-        "images": ["/assets/images/fig_10_15C.jpg"],
+        "description": "Profêmur menor que o metafêmur; antena com 10 ou mais flagelômeros; tórulos próximos à parte média da cabeça e não abaixo de uma projeção transversa (Fig. 10.15C)",
         "next_step": "step_16",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_15.jpg"
     ]
   },
   "step_16": {
@@ -289,18 +309,19 @@
     "options": [
       {
         "id": "opt_16a",
-        "description": "Asa anterior sem célula costal, veias C e R tocando-se ou fusionadas (asa anterior aparentemente com apenas 3 veias longitudinais basalmente)",
-        "images": ["/assets/images/fig_10_16A.jpg"],
+        "description": "Asa anterior sem célula costal, veias C e R tocando-se ou fusionadas (asa anterior aparentemente com apenas 3 veias longitudinais basalmente) (Fig. 10.16A)",
         "next_step": "step_17",
         "taxon_result": null
       },
       {
         "id": "opt_16b",
-        "description": "Asa anterior com célula costal, veias C e R separadas (asa anterior com 4 veias longitudinais separadas basalmente)",
-        "images": ["/assets/images/fig_10_16B.jpg"],
+        "description": "Asa anterior com célula costal, veias C e R separadas (asa anterior com 4 veias longitudinais separadas basalmente) (Fig. 10.16B)",
         "next_step": "step_19",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_16.jpg"
     ]
   },
   "step_17": {
@@ -308,18 +329,19 @@
     "options": [
       {
         "id": "opt_17a",
-        "description": "Esternos abdominais menos esclerotizados que os tergos; esternos anteriores (geralmente metassomais 1–3) divididos cada um em vários escleritos, que em exemplares a seco podem colapsar e dar uma falsa aparência de concavidade [poucos Chrysidinae chegam aqui, mas são metálicos brilhantes verde ou azul, com apenas três tergos visíveis no metassoma]",
-        "images": ["/assets/images/fig_10_17A.jpg"],
+        "description": "Esternos abdominais menos esclerotizados que os tergos; esternos anteriores (geralmente metassomais 1–3) divididos cada um em vários escleritos, que em exemplares a seco podem colapsar e dar uma falsa aparência de concavidade [poucos Chrysidinae chegam aqui, mas são metálicos brilhantes verde ou azul, com apenas três tergos visíveis no metassoma] (Fig. 10.17A)",
         "next_step": null,
         "taxon_result": "maioria de ICHNEUMONOIDEA"
       },
       {
         "id": "opt_17b",
-        "description": "Esternos abdominais tão esclerotizados quanto os tergos; esternos anteriores (geralmente metassomais 1–3) não divididos cada um em vários escleritos",
-        "images": ["/assets/images/fig_10_17B.jpg"],
+        "description": "Esternos abdominais tão esclerotizados quanto os tergos; esternos anteriores (geralmente metassomais 1–3) não divididos cada um em vários escleritos (Fig. 10.17B)",
         "next_step": "step_18",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_17.jpg"
     ]
   },
   "step_18": {
@@ -328,36 +350,36 @@
       {
         "id": "opt_18a",
         "description": "Antena com 10 ou 11 flagelômeros",
-        "images": [],
         "next_step": "step_22",
         "taxon_result": null
       },
       {
         "id": "opt_18b",
         "description": "Antena com 12 ou mais flagelômeros",
-        "images": [],
         "next_step": null,
         "taxon_result": "alguns ICHNEUMONOIDEA"
       }
-    ]
+    ],
+    "images": []
   },
   "step_19": {
     "trait_description": "Número de flagelômeros antenais e forma do protarso",
     "options": [
       {
         "id": "opt_19a",
-        "description": "Antena com 8 flagelômeros; a maioria das fêmeas com o protarso especializado em forma de pinça [muitos Dryinidae, alguns Embolemidae]",
-        "images": ["/assets/images/fig_10_18.jpg"],
+        "description": "Antena com 8 flagelômeros; a maioria das fêmeas com o protarso especializado em forma de pinça [muitos Dryinidae, alguns Embolemidae] (Fig. 10.18)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_19b",
         "description": "Antena com 10 ou mais flagelômeros",
-        "images": [],
         "next_step": "step_20",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_19.jpg"
     ]
   },
   "step_20": {
@@ -365,18 +387,19 @@
     "options": [
       {
         "id": "opt_20a",
-        "description": "Asa anterior com a veia Cu quase reta; veia 2cu-a tão longa ou mais longa que 1cu-a; veias 2r-m e 2m-cu ausentes",
-        "images": ["/assets/images/fig_10_19A.jpg"],
+        "description": "Asa anterior com a veia Cu quase reta; veia 2cu-a tão longa ou mais longa que 1cu-a; veias 2r-m e 2m-cu ausentes (Fig. 10.19A)",
         "next_step": null,
         "taxon_result": "alguns PROCTOTRUPOIDEA"
       },
       {
         "id": "opt_20b",
-        "description": "Asa anterior com a veia Cu em ângulos abruptos de 30° a 90° em sua parte posterior; veia 2cu-a geralmente menor que metade do comprimento de 1cu-a; geralmente veias 2r-m e 2m-cu presentes",
-        "images": ["/assets/images/fig_10_19B.jpg"],
+        "description": "Asa anterior com a veia Cu em ângulos abruptos de 30° a 90° em sua parte posterior; veia 2cu-a geralmente menor que metade do comprimento de 1cu-a; geralmente veias 2r-m e 2m-cu presentes (Fig. 10.19B)",
         "next_step": "step_21",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_20.jpg"
     ]
   },
   "step_21": {
@@ -384,18 +407,19 @@
     "options": [
       {
         "id": "opt_21a",
-        "description": "Antena com 14 ou mais flagelômeros; tarsômeros 1–4 com projeções apicoventrales, pequenas, digitiformes e carnosas",
-        "images": ["/assets/images/fig_10_20.jpg"],
+        "description": "Antena com 14 ou mais flagelômeros; tarsômeros 1–4 com projeções apicoventrales, pequenas, digitiformes e carnosas (Fig. 10.20)",
         "next_step": null,
         "taxon_result": "TRIGONALYOIDEA"
       },
       {
         "id": "opt_21b",
         "description": "Antenas com 10 ou 11 flagelômeros; tarsômeros 1–4 sem tais projeções, ou raramente com pequenos lóbulos planos",
-        "images": [],
         "next_step": "step_22",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_21.jpg"
     ]
   },
   "step_22": {
@@ -403,18 +427,19 @@
     "options": [
       {
         "id": "opt_22a",
-        "description": "Suturas torácicas que rodeiam a tégula obscurecidas por pelos densos; alguns pelos do corpo, especialmente no propódeo, plumosos; primeiro tarsômero da pata posterior achatado, muito mais largo que o tarsômero 2",
-        "images": ["/assets/images/fig_10_21A.jpg", "/assets/images/fig_10_21C.jpg", "/assets/images/fig_10_21E.jpg"],
+        "description": "Suturas torácicas que rodeiam a tégula obscurecidas por pelos densos; alguns pelos do corpo, especialmente no propódeo, plumosos; primeiro tarsômero da pata posterior achatado, muito mais largo que o tarsômero 2 (Fig. 10.21A, Fig. 10.21C, Fig. 10.21E)",
         "next_step": null,
         "taxon_result": "alguns Apiformes (APOIDEA)"
       },
       {
         "id": "opt_22b",
-        "description": "Suturas torácicas que rodeiam a tégula visíveis; pelos do corpo geralmente simples; primeiro tarsômero da pata posterior cilíndrico, não mais largo que o tarsômero 2",
-        "images": ["/assets/images/fig_10_21B.jpg", "/assets/images/fig_10_21D.jpg", "/assets/images/fig_10_21F.jpg"],
+        "description": "Suturas torácicas que rodeiam a tégula visíveis; pelos do corpo geralmente simples; primeiro tarsômero da pata posterior cilíndrico, não mais largo que o tarsômero 2 (Fig. 10.21B, Fig. 10.21D, Fig. 10.21F)",
         "next_step": "step_23",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_22.jpg"
     ]
   },
   "step_23": {
@@ -422,18 +447,19 @@
     "options": [
       {
         "id": "opt_23a",
-        "description": "Asa posterior sem células fechadas",
-        "images": ["/assets/images/fig_10_22A.jpg"],
+        "description": "Asa posterior sem células fechadas (Fig. 10.22A)",
         "next_step": "step_24",
         "taxon_result": null
       },
       {
         "id": "opt_23b",
-        "description": "Asa posterior com 1–3 células fechadas",
-        "images": ["/assets/images/fig_10_22B.jpg"],
+        "description": "Asa posterior com 1–3 células fechadas (Fig. 10.22B)",
         "next_step": "step_26",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_23.jpg"
     ]
   },
   "step_24": {
@@ -441,18 +467,19 @@
     "options": [
       {
         "id": "opt_24a",
-        "description": "Inserção do metassoma na parte superior do propódeo",
-        "images": ["/assets/images/fig_10_23A.jpg"],
+        "description": "Inserção do metassoma na parte superior do propódeo (Fig. 10.23A)",
         "next_step": null,
         "taxon_result": "muitos EVANIOIDEA"
       },
       {
         "id": "opt_24b",
-        "description": "Inserção do metassoma na parte inferior do propódeo, contígua à coxa posterior",
-        "images": ["/assets/images/fig_10_23B.jpg"],
+        "description": "Inserção do metassoma na parte inferior do propódeo, contígua à coxa posterior (Fig. 10.23B)",
         "next_step": "step_25",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_24.jpg"
     ]
   },
   "step_25": {
@@ -460,18 +487,19 @@
     "options": [
       {
         "id": "opt_25a",
-        "description": "Pronoto com mais da metade do comprimento do mesoscuto",
-        "images": ["/assets/images/fig_10_24A.jpg"],
+        "description": "Pronoto com mais da metade do comprimento do mesoscuto (Fig. 10.24A)",
         "next_step": null,
         "taxon_result": "muitos CHRYSIDOIDEA"
       },
       {
         "id": "opt_25b",
-        "description": "Pronoto com menos da metade do comprimento do mesoscuto",
-        "images": ["/assets/images/fig_10_24B.jpg"],
+        "description": "Pronoto com menos da metade do comprimento do mesoscuto (Fig. 10.24B)",
         "next_step": "step_26",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_25.jpg"
     ]
   },
   "step_26": {
@@ -479,18 +507,19 @@
     "options": [
       {
         "id": "opt_26a",
-        "description": "Tégula separada do pronoto, de forma que o mesoscuto toca a mesopleura",
-        "images": ["/assets/images/fig_10_25A.jpg", "/assets/images/fig_10_25B.jpg"],
+        "description": "Tégula separada do pronoto, de forma que o mesoscuto toca a mesopleura (Fig. 10.25A, Fig. 10.25B)",
         "next_step": "step_27",
         "taxon_result": null
       },
       {
         "id": "opt_26b",
-        "description": "Tégula toca o pronoto quando as asas estão dobradas, de forma que o mesoscuto fica separado da mesopleura pela tégula",
-        "images": ["/assets/images/fig_10_25C.jpg", "/assets/images/fig_10_25D.jpg"],
+        "description": "Tégula toca o pronoto quando as asas estão dobradas, de forma que o mesoscuto fica separado da mesopleura pela tégula (Fig. 10.25C, Fig. 10.25D)",
         "next_step": "step_28",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_26.jpg"
     ]
   },
   "step_27": {
@@ -498,18 +527,24 @@
     "options": [
       {
         "id": "opt_27a",
-        "description": "Pronoto em vista lateral com margem posterior apresentando lóbulo arredondado conspícuo e margem dorsal do lóbulo formando concavidade em ângulo de 30°–90° com a margem pronotal",
-        "images": ["/assets/images/fig_10_26A.jpg"],
+        "description": "Pronoto em vista lateral com margem posterior apresentando lóbulo arredondado conspícuo e margem dorsal do lóbulo formando concavidade em ângulo de 30°–90° com a margem pronotal (Fig. 10.26A)",
         "next_step": null,
         "taxon_result": "muitos APOIDEA"
       },
       {
         "id": "opt_27b",
-        "description": "Pronoto em vista lateral sem lóbulo arredondado conspícuo; margem dorsal do lóbulo formando concavidade fraca; alguns Formicidae",
-        "images": ["/assets/images/fig_10_26B.jpg"],
+        "description": "Pronoto em vista lateral sem lóbulo arredondado conspícuo; margem dorsal do lóbulo formando concavidade fraca; alguns Formicidae (Fig. 10.26B)",
         "next_step": null,
-        "taxon_result": "VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_27.jpg"
     ]
   },
   "step_28": {
@@ -517,18 +552,19 @@
     "options": [
       {
         "id": "opt_28a",
-        "description": "Pelos do corpo plumosos (em 40x ou mais), especialmente no propódeo, bases das asas, coxas e margens dos tergos; primeiro tarsômero da pata posterior achatado, muito mais largo que o tarsômero 2; alguns Megachilidae",
-        "images": ["/assets/images/fig_10_27A.jpg", "/assets/images/fig_10_27C.jpg"],
+        "description": "Pelos do corpo plumosos (em 40x ou mais), especialmente no propódeo, bases das asas, coxas e margens dos tergos; primeiro tarsômero da pata posterior achatado, muito mais largo que o tarsômero 2; alguns Megachilidae (Fig. 10.27A, Fig. 10.27C)",
         "next_step": null,
         "taxon_result": "APOIDEA"
       },
       {
         "id": "opt_28b",
-        "description": "Pelos do corpo geralmente simples; primeiro tarsômero da pata posterior cilíndrico, não mais largo que o tarsômero 2",
-        "images": ["/assets/images/fig_10_27B.jpg", "/assets/images/fig_10_27D.jpg"],
+        "description": "Pelos do corpo geralmente simples; primeiro tarsômero da pata posterior cilíndrico, não mais largo que o tarsômero 2 (Fig. 10.27B, Fig. 10.27D)",
         "next_step": "step_29",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_28.jpg"
     ]
   },
   "step_29": {
@@ -536,18 +572,19 @@
     "options": [
       {
         "id": "opt_29a",
-        "description": "Asa anterior com 4–5 veias aproximando-se ou tocando a margem apical além do estigma",
-        "images": ["/assets/images/fig_10_28A.jpg"],
+        "description": "Asa anterior com 4–5 veias aproximando-se ou tocando a margem apical além do estigma (Fig. 10.28A)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_29b",
-        "description": "Asa anterior com 3 (raramente 4) veias aproximando-se ou tocando a margem apical além do estigma",
-        "images": ["/assets/images/fig_10_28B.jpg"],
+        "description": "Asa anterior com 3 (raramente 4) veias aproximando-se ou tocando a margem apical além do estigma (Fig. 10.28B)",
         "next_step": "step_30",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_29.jpg"
     ]
   },
   "step_30": {
@@ -555,18 +592,24 @@
     "options": [
       {
         "id": "opt_30a",
-        "description": "Pronoto em vista lateral com a parte transversa média unindo-se ao mesoscuto em ângulo agudo ou sulco profundo; margem posteromedial do pronoto em vista dorsal mais ou menos reta, reunindo-se com o lóbulo posterior em curva aguda (aprox. ângulo reto); tégula toca a parte protuberante do lóbulo sobre a margem posterior do pronoto",
-        "images": ["/assets/images/fig_10_29A.jpg"],
+        "description": "Pronoto em vista lateral com a parte transversa média unindo-se ao mesoscuto em ângulo agudo ou sulco profundo; margem posteromedial do pronoto em vista dorsal mais ou menos reta, reunindo-se com o lóbulo posterior em curva aguda (aprox. ângulo reto); tégula toca a parte protuberante do lóbulo sobre a margem posterior do pronoto (Fig. 10.29A)",
         "next_step": null,
         "taxon_result": "poucos APOIDEA"
       },
       {
         "id": "opt_30b",
-        "description": "Pronoto em vista lateral com a parte transversa média unindo-se suavemente até o nível do mesonoto, sem elevar-se em lóbulo transverso; margem posterior do pronoto em vista dorsal formando curva uniforme; tégula toca a margem pronotal",
-        "images": ["/assets/images/fig_10_29B.jpg", "/assets/images/fig_10_29C.jpg", "/assets/images/fig_10_29D.jpg"],
+        "description": "Pronoto em vista lateral com a parte transversa média unindo-se suavemente até o nível do mesonoto, sem elevar-se em lóbulo transverso; margem posterior do pronoto em vista dorsal formando curva uniforme; tégula toca a margem pronotal (Fig. 10.29B, Fig. 10.29C, Fig. 10.29D)",
         "next_step": null,
-        "taxon_result": "muitos VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "muitos VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_30.jpg"
     ]
   },
   "step_31": {
@@ -574,18 +617,19 @@
     "options": [
       {
         "id": "opt_31a",
-        "description": "Asa anterior com uma veia tubular (C ou C+R) sobre a parte basal da margem anterior (asa anterior às vezes com veias adicionais)",
-        "images": ["/assets/images/fig_10_30A.jpg", "/assets/images/fig_10_30B.jpg", "/assets/images/fig_10_30C.jpg"],
+        "description": "Asa anterior com uma veia tubular (C ou C+R) sobre a parte basal da margem anterior (asa anterior às vezes com veias adicionais) (Fig. 10.30A, Fig. 10.30B, Fig. 10.30C)",
         "next_step": "step_32",
         "taxon_result": null
       },
       {
         "id": "opt_31b",
-        "description": "Asa anterior sem veia tubular (C ausente) sobre a parte basal da margem anterior; às vezes asa anterior sem venação",
-        "images": ["/assets/images/fig_10_30D.jpg", "/assets/images/fig_10_30E.jpg", "/assets/images/fig_10_30F.jpg"],
+        "description": "Asa anterior sem veia tubular (C ausente) sobre a parte basal da margem anterior; às vezes asa anterior sem venação (Fig. 10.30D, Fig. 10.30E, Fig. 10.30F)",
         "next_step": "step_40",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_31.jpg"
     ]
   },
   "step_32": {
@@ -593,18 +637,19 @@
     "options": [
       {
         "id": "opt_32a",
-        "description": "Tergo metassomal aparente 1 (1+2) muito grande (verdadeiro tergo 1 pequeno e fundido ao tergo 2); asa anterior com apenas uma veia sobre a margem anterior",
-        "images": ["/assets/images/fig_10_31A.jpg", "/assets/images/fig_10_31D.jpg"],
+        "description": "Tergo metassomal aparente 1 (1+2) muito grande (verdadeiro tergo 1 pequeno e fundido ao tergo 2); asa anterior com apenas uma veia sobre a margem anterior (Fig. 10.31A, Fig. 10.31D)",
         "next_step": null,
         "taxon_result": "CERAPHRONOIDEA"
       },
       {
         "id": "opt_32b",
-        "description": "Tergo metassomal 1 do mesmo comprimento ou mais curto que os outros; asa anterior geralmente com duas veias próximas à margem anterior",
-        "images": ["/assets/images/fig_10_31B.jpg", "/assets/images/fig_10_31C.jpg", "/assets/images/fig_10_31E.jpg"],
+        "description": "Tergo metassomal 1 do mesmo comprimento ou mais curto que os outros; asa anterior geralmente com duas veias próximas à margem anterior (Fig. 10.31B, Fig. 10.31C, Fig. 10.31E)",
         "next_step": "step_33",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_32.jpg"
     ]
   },
   "step_33": {
@@ -612,18 +657,24 @@
     "options": [
       {
         "id": "opt_33a",
-        "description": "Primeiro segmento metassomal em forma de nódulo; o segundo também pode ser nodiforme",
-        "images": ["/assets/images/fig_10_32A.jpg"],
+        "description": "Primeiro segmento metassomal em forma de nódulo; o segundo também pode ser nodiforme (Fig. 10.32A)",
         "next_step": null,
-        "taxon_result": "poucos Formicidae (VESPOIDEA)"
+        "taxon_result": {
+          "scientific_name": "poucos Formicidae (VESPOIDEA)",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       },
       {
         "id": "opt_33b",
-        "description": "Primeiro segmento metassomal variável, mas não em forma de nódulo",
-        "images": ["/assets/images/fig_10_32B.jpg", "/assets/images/fig_10_32C.jpg", "/assets/images/fig_10_32D.jpg", "/assets/images/fig_10_32E.jpg"],
+        "description": "Primeiro segmento metassomal variável, mas não em forma de nódulo (Fig. 10.32B, Fig. 10.32C, Fig. 10.32D, Fig. 10.32E)",
         "next_step": "step_34",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_33.jpg"
     ]
   },
   "step_34": {
@@ -631,18 +682,19 @@
     "options": [
       {
         "id": "opt_34a",
-        "description": "Cabeça prognata; pronoto em vista dorsal em forma de pirâmide truncada; clípeo quase sempre com carena média longitudinal; alguns Bethylidae",
-        "images": ["/assets/images/fig_10_33A.jpg", "/assets/images/fig_10_33C.jpg"],
+        "description": "Cabeça prognata; pronoto em vista dorsal em forma de pirâmide truncada; clípeo quase sempre com carena média longitudinal; alguns Bethylidae (Fig. 10.33A, Fig. 10.33C)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_34b",
-        "description": "Cabeça não prognata; pronoto em forma de U; clípeo sem carena média",
-        "images": ["/assets/images/fig_10_33B.jpg", "/assets/images/fig_10_33D.jpg"],
+        "description": "Cabeça não prognata; pronoto em forma de U; clípeo sem carena média (Fig. 10.33B, Fig. 10.33D)",
         "next_step": "step_35",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_34.jpg"
     ]
   },
   "step_35": {
@@ -650,18 +702,19 @@
     "options": [
       {
         "id": "opt_35a",
-        "description": "Asa anterior com veias C e R encerrando uma longa e estreita célula costal que se estende da base até próximo ao estigma",
-        "images": ["/assets/images/fig_10_34A.jpg"],
+        "description": "Asa anterior com veias C e R encerrando uma longa e estreita célula costal que se estende da base até próximo ao estigma (Fig. 10.34A)",
         "next_step": "step_36",
         "taxon_result": null
       },
       {
         "id": "opt_35b",
-        "description": "Asa anterior com apenas uma veia aparente sobre a margem anterior; célula costal ausente ou fracamente formada",
-        "images": ["/assets/images/fig_10_34B.jpg"],
+        "description": "Asa anterior com apenas uma veia aparente sobre a margem anterior; célula costal ausente ou fracamente formada (Fig. 10.34B)",
         "next_step": "step_39",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_35.jpg"
     ]
   },
   "step_36": {
@@ -669,18 +722,19 @@
     "options": [
       {
         "id": "opt_36a",
-        "description": "Tórulo dirigido para cima, sobre uma saliência da fronte (melhor observado em vista lateral); asa anterior sem estigma (às vezes há pequena esclerotização similar); alguns Diapriidae",
-        "images": ["/assets/images/fig_10_35A.jpg", "/assets/images/fig_10_35C.jpg"],
+        "description": "Tórulo dirigido para cima, sobre uma saliência da fronte (melhor observado em vista lateral); asa anterior sem estigma (às vezes há pequena esclerotização similar); alguns Diapriidae (Fig. 10.35A, Fig. 10.35C)",
         "next_step": null,
         "taxon_result": "PROCTOTRUPOIDEA"
       },
       {
         "id": "opt_36b",
-        "description": "Tórulo dirigido para frente, nivelado com a fronte, raramente protuberante; asa anterior com estigma",
-        "images": ["/assets/images/fig_10_35B.jpg", "/assets/images/fig_10_35D.jpg"],
+        "description": "Tórulo dirigido para frente, nivelado com a fronte, raramente protuberante; asa anterior com estigma (Fig. 10.35B, Fig. 10.35D)",
         "next_step": "step_37",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_36.jpg"
     ]
   },
   "step_37": {
@@ -688,18 +742,19 @@
     "options": [
       {
         "id": "opt_37a",
-        "description": "Mesossoma surge na parte alta do propódeo; distância entre forame propodeal e cavidade metacoxal maior que a largura de qualquer abertura; poucos Evaniidae",
-        "images": ["/assets/images/fig_10_36A.jpg"],
+        "description": "Mesossoma surge na parte alta do propódeo; distância entre forame propodeal e cavidade metacoxal maior que a largura de qualquer abertura; poucos Evaniidae (Fig. 10.36A)",
         "next_step": null,
         "taxon_result": "EVANIOIDEA"
       },
       {
         "id": "opt_37b",
-        "description": "Mesossoma surge na parte baixa do propódeo; forame propodeal mais próximo à metacoxa que a largura da metacoxa, ou metassoma e metacoxa com abertura comum",
-        "images": ["/assets/images/fig_10_36B.jpg"],
+        "description": "Mesossoma surge na parte baixa do propódeo; forame propodeal mais próximo à metacoxa que a largura da metacoxa, ou metassoma e metacoxa com abertura comum (Fig. 10.36B)",
         "next_step": "step_38",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_37.jpg"
     ]
   },
   "step_38": {
@@ -708,36 +763,36 @@
       {
         "id": "opt_38a",
         "description": "Antena com 8 flagelômeros; alguns Dryinidae e Embolemidae",
-        "images": [],
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_38b",
         "description": "Antena com 10 ou mais flagelômeros",
-        "images": [],
         "next_step": null,
         "taxon_result": "alguns PROCTOTRUPOIDEA"
       }
-    ]
+    ],
+    "images": []
   },
   "step_39": {
     "trait_description": "Presença de estigma e comprimento relativo do escapo (sem célula costal longa)",
     "options": [
       {
         "id": "opt_39a",
-        "description": "Asa anterior com estigma; comprimento do escapo não mais de duas vezes sua largura",
-        "images": ["/assets/images/fig_10_37A.jpg", "/assets/images/fig_10_37D.jpg"],
+        "description": "Asa anterior com estigma; comprimento do escapo não mais de duas vezes sua largura (Fig. 10.37A, Fig. 10.37D)",
         "next_step": null,
         "taxon_result": "poucos ICHNEUMONOIDEA"
       },
       {
         "id": "opt_39b",
-        "description": "Asa anterior sem estigma; escapo geralmente mais de três vezes mais longo que largo",
-        "images": ["/assets/images/fig_10_37B.jpg", "/assets/images/fig_10_37C.jpg", "/assets/images/fig_10_37E.jpg"],
+        "description": "Asa anterior sem estigma; escapo geralmente mais de três vezes mais longo que largo (Fig. 10.37B, Fig. 10.37C, Fig. 10.37E)",
         "next_step": "step_40",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_39.jpg"
     ]
   },
   "step_40": {
@@ -745,18 +800,19 @@
     "options": [
       {
         "id": "opt_40a",
-        "description": "Asa anterior em forma de colher, com longos pelos marginais e membrana reticulada; asa posterior diminuta, fendida apicalmente (60x); tergos metassomais 1 e 2 cilíndricos e muito menores que os outros; corpo de 0,8 mm ou menos",
-        "images": ["/assets/images/fig_10_38A.jpg"],
+        "description": "Asa anterior em forma de colher, com longos pelos marginais e membrana reticulada; asa posterior diminuta, fendida apicalmente (60x); tergos metassomais 1 e 2 cilíndricos e muito menores que os outros; corpo de 0,8 mm ou menos (Fig. 10.38A)",
         "next_step": null,
         "taxon_result": "MYMAROMMATOIDEA"
       },
       {
         "id": "opt_40b",
-        "description": "Asa anterior de formas diferentes; se tem pelos marginais, a membrana não é reticulada; asa posterior maior, não fendida apicalmente; metassoma com um segmento cilíndrico ou nenhum",
-        "images": ["/assets/images/fig_10_38B.jpg", "/assets/images/fig_10_38C.jpg"],
+        "description": "Asa anterior de formas diferentes; se tem pelos marginais, a membrana não é reticulada; asa posterior maior, não fendida apicalmente; metassoma com um segmento cilíndrico ou nenhum (Fig. 10.38B, Fig. 10.38C)",
         "next_step": "step_41",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_40.jpg"
     ]
   },
   "step_41": {
@@ -764,18 +820,19 @@
     "options": [
       {
         "id": "opt_41a",
-        "description": "Cabeça com marca em forma de H entre os olhos, ocelos e tórulos; tórulos geralmente mais próximos dos olhos que entre si; asa posterior pedunculada na base; Mymaridae",
-        "images": ["/assets/images/fig_10_39A.jpg", "/assets/images/fig_10_39C.jpg"],
+        "description": "Cabeça com marca em forma de H entre os olhos, ocelos e tórulos; tórulos geralmente mais próximos dos olhos que entre si; asa posterior pedunculada na base; Mymaridae (Fig. 10.39A, Fig. 10.39C)",
         "next_step": null,
         "taxon_result": "CHALCIDOIDEA"
       },
       {
         "id": "opt_41b",
-        "description": "Cabeça sem marca em forma de H; tórulos geralmente mais próximos entre si; asa posterior não pedunculada na base",
-        "images": ["/assets/images/fig_10_39B.jpg", "/assets/images/fig_10_39D.jpg"],
+        "description": "Cabeça sem marca em forma de H; tórulos geralmente mais próximos entre si; asa posterior não pedunculada na base (Fig. 10.39B, Fig. 10.39D)",
         "next_step": "step_42",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_41.jpg"
     ]
   },
   "step_42": {
@@ -783,18 +840,19 @@
     "options": [
       {
         "id": "opt_42a",
-        "description": "Pronoto em vista lateral geralmente separado da tégula; corpo frequentemente com coloração metálica ou antena com ao menos um diminuto flagelômero em forma de anel sobre o pedicelo, ou ambos",
-        "images": ["/assets/images/fig_10_40A.jpg", "/assets/images/fig_10_40C.jpg"],
+        "description": "Pronoto em vista lateral geralmente separado da tégula; corpo frequentemente com coloração metálica ou antena com ao menos um diminuto flagelômero em forma de anel sobre o pedicelo, ou ambos (Fig. 10.40A, Fig. 10.40C)",
         "next_step": null,
         "taxon_result": "CHALCIDOIDEA"
       },
       {
         "id": "opt_42b",
-        "description": "Pronoto estende-se até a tégula; corpo raramente metálico e antena sem flagelômero em forma de anel sobre o pedicelo",
-        "images": ["/assets/images/fig_10_40B.jpg", "/assets/images/fig_10_40D.jpg"],
+        "description": "Pronoto estende-se até a tégula; corpo raramente metálico e antena sem flagelômero em forma de anel sobre o pedicelo (Fig. 10.40B, Fig. 10.40D)",
         "next_step": "step_43",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_42.jpg"
     ]
   },
   "step_43": {
@@ -802,18 +860,19 @@
     "options": [
       {
         "id": "opt_43a",
-        "description": "Tórulo imediatamente sobre a cavidade oral; ou se mais alto, imediatamente sobre o ápice do triângulo clipeal",
-        "images": ["/assets/images/fig_10_41A.jpg", "/assets/images/fig_10_41B.jpg"],
+        "description": "Tórulo imediatamente sobre a cavidade oral; ou se mais alto, imediatamente sobre o ápice do triângulo clipeal (Fig. 10.41A, Fig. 10.41B)",
         "next_step": "step_44",
         "taxon_result": null
       },
       {
         "id": "opt_43b",
-        "description": "Tórulo separado por mais de seu próprio diâmetro da margem dorsal do clípeo",
-        "images": ["/assets/images/fig_10_41C.jpg", "/assets/images/fig_10_41D.jpg"],
+        "description": "Tórulo separado por mais de seu próprio diâmetro da margem dorsal do clípeo (Fig. 10.41C, Fig. 10.41D)",
         "next_step": "step_45",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_43.jpg"
     ]
   },
   "step_44": {
@@ -821,18 +880,19 @@
     "options": [
       {
         "id": "opt_44a",
-        "description": "Pronoto em vista dorsal em forma de pirâmide truncada; comprimento pronotal médio tão longo ou mais que o mesoscuto; primeiro segmento metassomal sem cantos anterolaterais angulados, com perfil entre cônico e campaniforme; alguns Bethylidae e Chrysididae",
-        "images": ["/assets/images/fig_10_42A.jpg", "/assets/images/fig_10_42C.jpg", "/assets/images/fig_10_42D.jpg"],
+        "description": "Pronoto em vista dorsal em forma de pirâmide truncada; comprimento pronotal médio tão longo ou mais que o mesoscuto; primeiro segmento metassomal sem cantos anterolaterais angulados, com perfil entre cônico e campaniforme; alguns Bethylidae e Chrysididae (Fig. 10.42A, Fig. 10.42C, Fig. 10.42D)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_44b",
-        "description": "Pronoto em vista dorsal em forma de U, medialmente mais curto que o mesoscuto; primeiro segmento metassomal com cantos anterolaterais angulados, semi-retangular em perfil",
-        "images": ["/assets/images/fig_10_42B.jpg", "/assets/images/fig_10_42E.jpg"],
+        "description": "Pronoto em vista dorsal em forma de U, medialmente mais curto que o mesoscuto; primeiro segmento metassomal com cantos anterolaterais angulados, semi-retangular em perfil (Fig. 10.42B, Fig. 10.42E)",
         "next_step": null,
         "taxon_result": "PLATYGASTROIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_44.jpg"
     ]
   },
   "step_45": {
@@ -840,18 +900,19 @@
     "options": [
       {
         "id": "opt_45a",
-        "description": "Cabeça em vista lateral com tórulo voltado para frente, na metade da fronte mais ou menos plana; escapo um pouco mais curto ou mais longo que o pedicelo",
-        "images": ["/assets/images/fig_10_43A.jpg"],
+        "description": "Cabeça em vista lateral com tórulo voltado para frente, na metade da fronte mais ou menos plana; escapo um pouco mais curto ou mais longo que o pedicelo (Fig. 10.43A)",
         "next_step": null,
         "taxon_result": "CYNIPOIDEA"
       },
       {
         "id": "opt_45b",
-        "description": "Cabeça em vista lateral com tórulo voltado para cima e protuberante da parte central da cabeça; escapo várias vezes mais longo que o pedicelo; alguns Diapriidae",
-        "images": ["/assets/images/fig_10_43B.jpg"],
+        "description": "Cabeça em vista lateral com tórulo voltado para cima e protuberante da parte central da cabeça; escapo várias vezes mais longo que o pedicelo; alguns Diapriidae (Fig. 10.43B)",
         "next_step": null,
         "taxon_result": "PROCTOTRUPOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_45.jpg"
     ]
   },
   "step_46": {
@@ -859,18 +920,24 @@
     "options": [
       {
         "id": "opt_46a",
-        "description": "Segundo segmento metassomal em forma de nódulo, não mais longo que o primeiro, geralmente mais curto, e com diâmetro máximo claramente inferior ao do terceiro segmento; muitos Formicidae e Bradynobaenidae",
-        "images": ["/assets/images/fig_10_44A.jpg", "/assets/images/fig_10_44B.jpg"],
+        "description": "Segundo segmento metassomal em forma de nódulo, não mais longo que o primeiro, geralmente mais curto, e com diâmetro máximo claramente inferior ao do terceiro segmento; muitos Formicidae e Bradynobaenidae (Fig. 10.44A, Fig. 10.44B)",
         "next_step": null,
-        "taxon_result": "VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       },
       {
         "id": "opt_46b",
-        "description": "Segundo segmento metassomal geralmente afilado, tão longo ou mais que o primeiro (segmento 2 às vezes mais curto que o 1, mas apenas se o 1 não for nodiforme), com diâmetro máximo igual ou maior ao do terceiro segmento",
-        "images": ["/assets/images/fig_10_44C.jpg", "/assets/images/fig_10_44D.jpg", "/assets/images/fig_10_44E.jpg", "/assets/images/fig_10_44F.jpg"],
+        "description": "Segundo segmento metassomal geralmente afilado, tão longo ou mais que o primeiro (segmento 2 às vezes mais curto que o 1, mas apenas se o 1 não for nodiforme), com diâmetro máximo igual ou maior ao do terceiro segmento (Fig. 10.44C, Fig. 10.44D, Fig. 10.44E, Fig. 10.44F)",
         "next_step": "step_47",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_46.jpg"
     ]
   },
   "step_47": {
@@ -878,18 +945,24 @@
     "options": [
       {
         "id": "opt_47a",
-        "description": "Propódeo seguido de segmento nodiforme; fêmeas com glândula metapleural (visível como orifício na metapleura); maioria dos Formicidae",
-        "images": ["/assets/images/fig_10_45A.jpg"],
+        "description": "Propódeo seguido de segmento nodiforme; fêmeas com glândula metapleural (visível como orifício na metapleura); maioria dos Formicidae (Fig. 10.45A)",
         "next_step": null,
-        "taxon_result": "VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       },
       {
         "id": "opt_47b",
-        "description": "Propódeo seguido por segmento afilado, curto, cilíndrico ou em forma de anel, não nodiforme; fêmeas sem glândula metapleural",
-        "images": ["/assets/images/fig_10_45B.jpg", "/assets/images/fig_10_45C.jpg", "/assets/images/fig_10_45D.jpg", "/assets/images/fig_10_45F.jpg"],
+        "description": "Propódeo seguido por segmento afilado, curto, cilíndrico ou em forma de anel, não nodiforme; fêmeas sem glândula metapleural (Fig. 10.45B, Fig. 10.45C, Fig. 10.45D, Fig. 10.45F)",
         "next_step": "step_48",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_47.jpg"
     ]
   },
   "step_48": {
@@ -897,18 +970,19 @@
     "options": [
       {
         "id": "opt_48a",
-        "description": "Machos, exclusivamente em frutos de figos; antena mais curta que a cabeça; metassoma frequentemente longo, pálido e fracamente esclerotizado; Agaonidae",
-        "images": ["/assets/images/fig_10_46.jpg"],
+        "description": "Machos, exclusivamente em frutos de figos; antena mais curta que a cabeça; metassoma frequentemente longo, pálido e fracamente esclerotizado; Agaonidae (Fig. 10.46)",
         "next_step": null,
         "taxon_result": "CHALCIDOIDEA"
       },
       {
         "id": "opt_48b",
         "description": "Fêmeas, ou machos não associados obrigatoriamente a figos; antenas ao menos tão longas quanto a cabeça; metassoma oval e geralmente mais curto",
-        "images": [],
         "next_step": "step_49",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_48.jpg"
     ]
   },
   "step_49": {
@@ -916,18 +990,19 @@
     "options": [
       {
         "id": "opt_49a",
-        "description": "Pronoto em vista lateral não se estende até a tégula; tegumento geralmente delgado, especialmente na parte dorsal do metassoma; corpo quase sempre colapsa em exemplares conservados a seco",
-        "images": ["/assets/images/fig_10_47A.jpg"],
+        "description": "Pronoto em vista lateral não se estende até a tégula; tegumento geralmente delgado, especialmente na parte dorsal do metassoma; corpo quase sempre colapsa em exemplares conservados a seco (Fig. 10.47A)",
         "next_step": null,
         "taxon_result": "CHALCIDOIDEA"
       },
       {
         "id": "opt_49b",
-        "description": "Pronoto em vista lateral se estende até a tégula; tegumento espesso; corpo raramente colapsa em exemplares conservados a seco",
-        "images": ["/assets/images/fig_10_47B.jpg"],
+        "description": "Pronoto em vista lateral se estende até a tégula; tegumento espesso; corpo raramente colapsa em exemplares conservados a seco (Fig. 10.47B)",
         "next_step": "step_50",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_49.jpg"
     ]
   },
   "step_50": {
@@ -935,18 +1010,24 @@
     "options": [
       {
         "id": "opt_50a",
-        "description": "Vértice separado do occipúcio por carena aguda; olho grande, quase tocando a carena posterior; asa anterior estende-se até a base do metassoma; tégula presente; corpo com mais de 3 mm; profêmur muito grande; antena com 10 ou 11 flagelômeros (Olixon, Rhopalosomatidae)",
-        "images": ["/assets/images/fig_10_48A.jpg"],
+        "description": "Vértice separado do occipúcio por carena aguda; olho grande, quase tocando a carena posterior; asa anterior estende-se até a base do metassoma; tégula presente; corpo com mais de 3 mm; profêmur muito grande; antena com 10 ou 11 flagelômeros (Olixon, Rhopalosomatidae) (Fig. 10.48A)",
         "next_step": null,
-        "taxon_result": "VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       },
       {
         "id": "opt_50b",
-        "description": "Vértice e occipúcio arredondados e geralmente sem carena; olho geralmente pequeno e longe da curvatura da cabeça; restos de asa e tégula ausentes; se as condições acima se aplicam, então comprimento de 2 mm ou menos com antena de 5 flagelômeros, ou sem tégula e sem restos de asa",
-        "images": ["/assets/images/fig_10_48B.jpg"],
+        "description": "Vértice e occipúcio arredondados e geralmente sem carena; olho geralmente pequeno e longe da curvatura da cabeça; restos de asa e tégula ausentes; se as condições acima se aplicam, então comprimento de 2 mm ou menos com antena de 5 flagelômeros, ou sem tégula e sem restos de asa (Fig. 10.48B)",
         "next_step": "step_51",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_50.jpg"
     ]
   },
   "step_51": {
@@ -954,18 +1035,19 @@
     "options": [
       {
         "id": "opt_51a",
-        "description": "Tórulo mais próximo ao clípeo que seu próprio diâmetro, geralmente tocando a margem dorsal do clípeo, e geralmente parcialmente oculto por uma elevação protuberante acima ou entre os tórulos",
-        "images": ["/assets/images/fig_10_49A.jpg", "/assets/images/fig_10_49B.jpg"],
+        "description": "Tórulo mais próximo ao clípeo que seu próprio diâmetro, geralmente tocando a margem dorsal do clípeo, e geralmente parcialmente oculto por uma elevação protuberante acima ou entre os tórulos (Fig. 10.49A, Fig. 10.49B)",
         "next_step": "step_52",
         "taxon_result": null
       },
       {
         "id": "opt_51b",
-        "description": "Tórulo separado da margem dorsal do clípeo por cerca de duas vezes ou mais seu próprio diâmetro; em vista dorsal não oculto por elevação protuberante",
-        "images": ["/assets/images/fig_10_49C.jpg"],
+        "description": "Tórulo separado da margem dorsal do clípeo por cerca de duas vezes ou mais seu próprio diâmetro; em vista dorsal não oculto por elevação protuberante (Fig. 10.49C)",
         "next_step": "step_62",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_51.jpg"
     ]
   },
   "step_52": {
@@ -973,18 +1055,19 @@
     "options": [
       {
         "id": "opt_52a",
-        "description": "Metassoma com 4–5 tergos visíveis (corpo maciço, cabeça geralmente alongada abaixo do olho e com depressões superficiais acima do tórulo); alguns Chrysididae",
-        "images": ["/assets/images/fig_10_50A.jpg"],
+        "description": "Metassoma com 4–5 tergos visíveis (corpo maciço, cabeça geralmente alongada abaixo do olho e com depressões superficiais acima do tórulo); alguns Chrysididae (Fig. 10.50A)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_52b",
-        "description": "Metassoma com 6–8 tergos visíveis (cabeça sem depressões acima do tórulo)",
-        "images": ["/assets/images/fig_10_50B.jpg"],
+        "description": "Metassoma com 6–8 tergos visíveis (cabeça sem depressões acima do tórulo) (Fig. 10.50B)",
         "next_step": "step_53",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_52.jpg"
     ]
   },
   "step_53": {
@@ -992,18 +1075,19 @@
     "options": [
       {
         "id": "opt_53a",
-        "description": "Escapo com ao menos cinco vezes o comprimento de sua largura máxima, mais ou menos reto, radícula paralela ao eixo longo do escapo; corpo com menos de 3 mm; metassoma sem espiráculos visíveis",
-        "images": ["/assets/images/fig_10_51A.jpg"],
+        "description": "Escapo com ao menos cinco vezes o comprimento de sua largura máxima, mais ou menos reto, radícula paralela ao eixo longo do escapo; corpo com menos de 3 mm; metassoma sem espiráculos visíveis (Fig. 10.51A)",
         "next_step": "step_54",
         "taxon_result": null
       },
       {
         "id": "opt_53b",
-        "description": "Escapo geralmente menos de três vezes o comprimento de sua largura máxima, ou se mais longo, então sinuoso com radícula em ângulo reto; corpo de 2 a 30 mm; metassoma com ao menos dois pares de espiráculos visíveis (segmentos 1 e 2)",
-        "images": ["/assets/images/fig_10_51B.jpg", "/assets/images/fig_10_51C.jpg"],
+        "description": "Escapo geralmente menos de três vezes o comprimento de sua largura máxima, ou se mais longo, então sinuoso com radícula em ângulo reto; corpo de 2 a 30 mm; metassoma com ao menos dois pares de espiráculos visíveis (segmentos 1 e 2) (Fig. 10.51B, Fig. 10.51C)",
         "next_step": "step_56",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_53.jpg"
     ]
   },
   "step_54": {
@@ -1011,18 +1095,19 @@
     "options": [
       {
         "id": "opt_54a",
-        "description": "Metassoma geralmente em forma de lente em seção transversal, mais largo que alto, com lados geralmente em ângulos agudos; tergos metassomais 2 ou 3 os maiores",
-        "images": ["/assets/images/fig_10_52A.jpg", "/assets/images/fig_10_52C.jpg", "/assets/images/fig_10_52D.jpg"],
+        "description": "Metassoma geralmente em forma de lente em seção transversal, mais largo que alto, com lados geralmente em ângulos agudos; tergos metassomais 2 ou 3 os maiores (Fig. 10.52A, Fig. 10.52C, Fig. 10.52D)",
         "next_step": null,
         "taxon_result": "alguns PLATYGASTROIDEA"
       },
       {
         "id": "opt_54b",
-        "description": "Metassoma geralmente não em forma de lente, mais ou menos tão largo quanto alto, com lados arredondados; tergo aparente 1 o maior, ao menos três vezes mais longo que qualquer outro",
-        "images": ["/assets/images/fig_10_52B.jpg", "/assets/images/fig_10_52E.jpg", "/assets/images/fig_10_52F.jpg"],
+        "description": "Metassoma geralmente não em forma de lente, mais ou menos tão largo quanto alto, com lados arredondados; tergo aparente 1 o maior, ao menos três vezes mais longo que qualquer outro (Fig. 10.52B, Fig. 10.52E, Fig. 10.52F)",
         "next_step": "step_55",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_54.jpg"
     ]
   },
   "step_55": {
@@ -1030,18 +1115,19 @@
     "options": [
       {
         "id": "opt_55a",
-        "description": "Antena com cinco flagelômeros; vértice separado do occipúcio por ângulo agudo e carenado; olho grande, quase tocando a carena posterior da cabeça",
-        "images": ["/assets/images/fig_10_53A.jpg"],
+        "description": "Antena com cinco flagelômeros; vértice separado do occipúcio por ângulo agudo e carenado; olho grande, quase tocando a carena posterior da cabeça (Fig. 10.53A)",
         "next_step": null,
         "taxon_result": "alguns PLATYGASTROIDEA"
       },
       {
         "id": "opt_55b",
-        "description": "Antena com mais de cinco flagelômeros; vértice e occipúcio arredondados; olho não toca a margem posterior da cabeça",
-        "images": ["/assets/images/fig_10_53B.jpg"],
+        "description": "Antena com mais de cinco flagelômeros; vértice e occipúcio arredondados; olho não toca a margem posterior da cabeça (Fig. 10.53B)",
         "next_step": null,
         "taxon_result": "alguns CERAPHRONOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_55.jpg"
     ]
   },
   "step_56": {
@@ -1049,18 +1135,19 @@
     "options": [
       {
         "id": "opt_56a",
-        "description": "Pata anterior da fêmea com pinças formadas pelo tarsômero apical e a unha tarsal alargada (pata anterior do macho normal); antena com 8 flagelômeros",
-        "images": ["/assets/images/fig_10_54A.jpg"],
+        "description": "Pata anterior da fêmea com pinças formadas pelo tarsômero apical e a unha tarsal alargada (pata anterior do macho normal); antena com 8 flagelômeros (Fig. 10.54A)",
         "next_step": null,
         "taxon_result": "alguns Dryinidae (CHRYSIDOIDEA)"
       },
       {
         "id": "opt_56b",
-        "description": "Pata anterior de fêmea e macho sem pinças; tarsômero apical semelhante aos outros e ambas as unhas tarsais do mesmo tamanho; antena com 10 ou mais flagelômeros",
-        "images": ["/assets/images/fig_10_54B.jpg"],
+        "description": "Pata anterior de fêmea e macho sem pinças; tarsômero apical semelhante aos outros e ambas as unhas tarsais do mesmo tamanho; antena com 10 ou mais flagelômeros (Fig. 10.54B)",
         "next_step": "step_57",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_56.jpg"
     ]
   },
   "step_57": {
@@ -1068,18 +1155,19 @@
     "options": [
       {
         "id": "opt_57a",
-        "description": "Mesossoma com tégula e asas reduzidas (fragmento da asa pode estar oculto pela tégula); mesossoma normal, similar ao dos Hymenoptera alados",
-        "images": ["/assets/images/fig_10_55A.jpg"],
+        "description": "Mesossoma com tégula e asas reduzidas (fragmento da asa pode estar oculto pela tégula); mesossoma normal, similar ao dos Hymenoptera alados (Fig. 10.55A)",
         "next_step": "step_58",
         "taxon_result": null
       },
       {
         "id": "opt_57b",
-        "description": "Mesossoma sem tégula nem asas reduzidas; mesossoma frequentemente modificado por fusões, reduções ou alargamentos",
-        "images": ["/assets/images/fig_10_55B.jpg"],
+        "description": "Mesossoma sem tégula nem asas reduzidas; mesossoma frequentemente modificado por fusões, reduções ou alargamentos (Fig. 10.55B)",
         "next_step": "step_59",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_57.jpg"
     ]
   },
   "step_58": {
@@ -1087,18 +1175,24 @@
     "options": [
       {
         "id": "opt_58a",
-        "description": "Corpo às vezes com pontuação grosseira e abundante pilosidade; corpo às vezes coriáceo; tergo metassomal 2 frequentemente com linhas de feltro; espiráculos do tergo 1 difíceis de ver devido à pontuação grosseira",
-        "images": ["/assets/images/fig_10_56A.jpg"],
+        "description": "Corpo às vezes com pontuação grosseira e abundante pilosidade; corpo às vezes coriáceo; tergo metassomal 2 frequentemente com linhas de feltro; espiráculos do tergo 1 difíceis de ver devido à pontuação grosseira (Fig. 10.56A)",
         "next_step": null,
-        "taxon_result": "poucos VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "poucos VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       },
       {
         "id": "opt_58b",
-        "description": "Corpo em sua maior parte coriáceo e comparativamente liso com pilosidade esparsa; tergo metassomal 2 sem linhas de feltro; tergo metassomal 1 com espiráculos laterais anteriores visíveis sem dificuldade; poucos Bethylidae",
-        "images": ["/assets/images/fig_10_56B.jpg"],
+        "description": "Corpo em sua maior parte coriáceo e comparativamente liso com pilosidade esparsa; tergo metassomal 2 sem linhas de feltro; tergo metassomal 1 com espiráculos laterais anteriores visíveis sem dificuldade; poucos Bethylidae (Fig. 10.56B)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_58.jpg"
     ]
   },
   "step_59": {
@@ -1106,18 +1200,19 @@
     "options": [
       {
         "id": "opt_59a",
-        "description": "Propleuron fundido dorsal e centralmente em pescoço tubular que se projeta à frente do pronoto; união entre mesotórax e fusão metatórax+propódeo muito profundamente contraída ventral e lateralmente; fêmeas de Plumariidae",
-        "images": ["/assets/images/fig_10_57A.jpg"],
+        "description": "Propleuron fundido dorsal e centralmente em pescoço tubular que se projeta à frente do pronoto; união entre mesotórax e fusão metatórax+propódeo muito profundamente contraída ventral e lateralmente; fêmeas de Plumariidae (Fig. 10.57A)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_59b",
-        "description": "Propleuron não fundido e não projetado à frente do pronoto; união entre mesotórax e fusão metatórax+propódeo fracamente contraída ou sem constrição ventral",
-        "images": ["/assets/images/fig_10_57B.jpg"],
+        "description": "Propleuron não fundido e não projetado à frente do pronoto; união entre mesotórax e fusão metatórax+propódeo fracamente contraída ou sem constrição ventral (Fig. 10.57B)",
         "next_step": "step_60",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_59.jpg"
     ]
   },
   "step_60": {
@@ -1125,18 +1220,19 @@
     "options": [
       {
         "id": "opt_60a",
-        "description": "Antena com 15 ou mais flagelômeros; profêmur notoriamente alargado, ao menos duas vezes a largura do metafêmur; tórulo oculto em vista dorsal abaixo de expansão transversa que forma a extremidade anterior da cabeça prognata; fêmeas de Sclerogibbidae",
-        "images": ["/assets/images/fig_10_58A.jpg"],
+        "description": "Antena com 15 ou mais flagelômeros; profêmur notoriamente alargado, ao menos duas vezes a largura do metafêmur; tórulo oculto em vista dorsal abaixo de expansão transversa que forma a extremidade anterior da cabeça prognata; fêmeas de Sclerogibbidae (Fig. 10.58A)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_60b",
-        "description": "Antena com 10 ou 11 flagelômeros; profêmur raramente alargado, geralmente não mais largo que o metafêmur; tórulo visível em vista dorsal ou parcialmente oculto por dois lóbulos medianos",
-        "images": ["/assets/images/fig_10_58B.jpg"],
+        "description": "Antena com 10 ou 11 flagelômeros; profêmur raramente alargado, geralmente não mais largo que o metafêmur; tórulo visível em vista dorsal ou parcialmente oculto por dois lóbulos medianos (Fig. 10.58B)",
         "next_step": "step_61",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_60.jpg"
     ]
   },
   "step_61": {
@@ -1144,18 +1240,24 @@
     "options": [
       {
         "id": "opt_61a",
-        "description": "Mesopleura separada do mesonoto por sulco profundo facilmente visível em vista dorsal; mesossoma mais largo em direção à mesopleura; cabeça mais longa que larga e notoriamente prognata; clípeo com carena longitudinal mediana; espiráculos propodeais redondos ou ovais; tergo metassomal 1 com espiráculos dorsais; tergo metassomal 2 sem sulco ou linha de feltro (alguns Bethylidae)",
-        "images": ["/assets/images/fig_10_59A.jpg"],
+        "description": "Mesopleura separada do mesonoto por sulco profundo facilmente visível em vista dorsal; mesossoma mais largo em direção à mesopleura; cabeça mais longa que larga e notoriamente prognata; clípeo com carena longitudinal mediana; espiráculos propodeais redondos ou ovais; tergo metassomal 1 com espiráculos dorsais; tergo metassomal 2 sem sulco ou linha de feltro (alguns Bethylidae) (Fig. 10.59A)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       },
       {
         "id": "opt_61b",
-        "description": "Mesopleura não ou fracamente separada do mesonoto; escleritos do mesossoma geralmente fundidos em estrutura em forma de caixa; cabeça geralmente tão larga quanto longa e raramente prognata; espiráculos propodeais geralmente em fenda; tergo metassomal 1 com espiráculos laterais; tergo metassomal 2 às vezes com sulco longitudinal ou linha de feltro",
-        "images": ["/assets/images/fig_10_59B.jpg", "/assets/images/fig_10_59C.jpg"],
+        "description": "Mesopleura não ou fracamente separada do mesonoto; escleritos do mesossoma geralmente fundidos em estrutura em forma de caixa; cabeça geralmente tão larga quanto longa e raramente prognata; espiráculos propodeais geralmente em fenda; tergo metassomal 1 com espiráculos laterais; tergo metassomal 2 às vezes com sulco longitudinal ou linha de feltro (Fig. 10.59B, Fig. 10.59C)",
         "next_step": null,
-        "taxon_result": "VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_61.jpg"
     ]
   },
   "step_62": {
@@ -1163,18 +1265,19 @@
     "options": [
       {
         "id": "opt_62a",
-        "description": "Escapo ao menos quatro vezes mais longo que largo",
-        "images": ["/assets/images/fig_10_60A.jpg"],
+        "description": "Escapo ao menos quatro vezes mais longo que largo (Fig. 10.60A)",
         "next_step": "step_63",
         "taxon_result": null
       },
       {
         "id": "opt_62b",
-        "description": "Comprimento do escapo não mais de três vezes a largura",
-        "images": ["/assets/images/fig_10_60B.jpg"],
+        "description": "Comprimento do escapo não mais de três vezes a largura (Fig. 10.60B)",
         "next_step": "step_64",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_62.jpg"
     ]
   },
   "step_63": {
@@ -1182,18 +1285,19 @@
     "options": [
       {
         "id": "opt_63a",
-        "description": "Pronoto mais ou menos em forma de U em vista dorsal, comprimento médio geralmente menos de um quarto do mesoscuto; tergo metassomal 2 várias vezes tão longo quanto qualquer outro e muito mais largo que o segmento 1 (cilíndrico); antena geralmente com 9 a 13 flagelômeros; Diapriidae",
-        "images": ["/assets/images/fig_10_61A.jpg"],
+        "description": "Pronoto mais ou menos em forma de U em vista dorsal, comprimento médio geralmente menos de um quarto do mesoscuto; tergo metassomal 2 várias vezes tão longo quanto qualquer outro e muito mais largo que o segmento 1 (cilíndrico); antena geralmente com 9 a 13 flagelômeros; Diapriidae (Fig. 10.61A)",
         "next_step": null,
         "taxon_result": "PROCTOTRUPOIDEA"
       },
       {
         "id": "opt_63b",
-        "description": "Pronoto mais ou menos retangular, comprimento médio aproximadamente igual ao do mesoscuto; tergos metassomais 1 e 2 de comprimento e largura similares, segmento 1 cônico; antena com 8 flagelômeros; alguns Embolemidae",
-        "images": ["/assets/images/fig_10_61B.jpg"],
+        "description": "Pronoto mais ou menos retangular, comprimento médio aproximadamente igual ao do mesoscuto; tergos metassomais 1 e 2 de comprimento e largura similares, segmento 1 cônico; antena com 8 flagelômeros; alguns Embolemidae (Fig. 10.61B)",
         "next_step": null,
         "taxon_result": "CHRYSIDOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_63.jpg"
     ]
   },
   "step_64": {
@@ -1201,18 +1305,19 @@
     "options": [
       {
         "id": "opt_64a",
-        "description": "Metassoma com muitos esternos compostos por vários escleritos e mais fracamente esclerotizados que os tergos; esternos colapsados em exemplares a seco; antena geralmente com mais de 13 flagelômeros",
-        "images": ["/assets/images/fig_10_62A.jpg"],
+        "description": "Metassoma com muitos esternos compostos por vários escleritos e mais fracamente esclerotizados que os tergos; esternos colapsados em exemplares a seco; antena geralmente com mais de 13 flagelômeros (Fig. 10.62A)",
         "next_step": null,
         "taxon_result": "alguns ICHNEUMONOIDEA"
       },
       {
         "id": "opt_64b",
-        "description": "Metassoma com esternos de um único esclerito, mais esclerotizados que os tergos e convexos; esternos não colapsam em exemplares a seco; antena com 10 a 13 flagelômeros",
-        "images": ["/assets/images/fig_10_62B.jpg"],
+        "description": "Metassoma com esternos de um único esclerito, mais esclerotizados que os tergos e convexos; esternos não colapsam em exemplares a seco; antena com 10 a 13 flagelômeros (Fig. 10.62B)",
         "next_step": "step_65",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_64.jpg"
     ]
   },
   "step_65": {
@@ -1220,18 +1325,24 @@
     "options": [
       {
         "id": "opt_65a",
-        "description": "Primeiro segmento metassomal longo, cônico e com espiráculos; antena com 10 flagelômeros; alguns Pompilidae",
-        "images": ["/assets/images/fig_10_63A.jpg"],
+        "description": "Primeiro segmento metassomal longo, cônico e com espiráculos; antena com 10 flagelômeros; alguns Pompilidae (Fig. 10.63A)",
         "next_step": null,
-        "taxon_result": "VESPOIDEA"
+        "taxon_result": {
+          "scientific_name": "VESPOIDEA",
+          "taxonomic_level": "Superfamília",
+          "common_name": "",
+          "next_key_file": "/keys/vespoidea.json"
+        }
       },
       {
         "id": "opt_65b",
-        "description": "Primeiro segmento metassomal curto, cilíndrico e sem espiráculos; antena com 11 ou mais flagelômeros",
-        "images": ["/assets/images/fig_10_63B.jpg"],
+        "description": "Primeiro segmento metassomal curto, cilíndrico e sem espiráculos; antena com 11 ou mais flagelômeros (Fig. 10.63B)",
         "next_step": "step_66",
         "taxon_result": null
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_65.jpg"
     ]
   },
   "step_66": {
@@ -1239,18 +1350,19 @@
     "options": [
       {
         "id": "opt_66a",
-        "description": "Metassoma afilado em vista lateral; ovipositor em forma de gancho, dirigido ventralmente; flagelômeros sem sénsulas placoides longitudinais; poucas fêmeas de Proctotrupidae",
-        "images": ["/assets/images/fig_10_64A.jpg", "/assets/images/fig_10_64C.jpg"],
+        "description": "Metassoma afilado em vista lateral; ovipositor em forma de gancho, dirigido ventralmente; flagelômeros sem sénsulas placoides longitudinais; poucas fêmeas de Proctotrupidae (Fig. 10.64A, Fig. 10.64C)",
         "next_step": null,
         "taxon_result": "PROCTOTRUPOIDEA"
       },
       {
         "id": "opt_66b",
-        "description": "Metassoma em forma de disco, mais ou menos comprimido; ovipositor reto; flagelômeros com numerosas placas de sénsulas (em 40x ou mais); poucas fêmeas de Cynipidae",
-        "images": ["/assets/images/fig_10_64B.jpg", "/assets/images/fig_10_64D.jpg"],
+        "description": "Metassoma em forma de disco, mais ou menos comprimido; ovipositor reto; flagelômeros com numerosas placas de sénsulas (em 40x ou mais); poucas fêmeas de Cynipidae (Fig. 10.64B, Fig. 10.64D)",
         "next_step": null,
         "taxon_result": "CYNIPOIDEA"
       }
+    ],
+    "images": [
+      "/assets/images/cap10/step_66.jpg"
     ]
   }
 }

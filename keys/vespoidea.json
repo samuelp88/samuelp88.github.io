@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "name": "Vespoidea Neotropical",
+    "taxonomic_level": "Família",
+    "description": "Chave para as famílias neotropicais de Vespoidea"
+  },
+  "step_1": {
+    "trait_description": "Desenvolvimento das asas",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_1a",
+        "description": "Asas desenvolvidas (asa anterior ao menos tão longa quanto o mesossoma) (Fig. 46.1A)",
+        "next_step": "step_2",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_1b",
+        "description": "Asas ausentes ou curtas (asa anterior mais curta que o mesossoma) (Fig. 46.1B)",
+        "next_step": "step_18",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_2": {
+    "trait_description": "Separação das metacoxas e venação alar",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_2a",
+        "description": "Metacoxas (cx3) amplamente separadas por um metasterno largo e plano, ao mesmo nível do mesosterno, parcialmente cobertas na base por uma lâmina ampla (Fig. 46.2A); asas enrugadas longitudinalmente na parte apical (Fig. 46.2D); propódeo dividido em três partes por dois sulcos longitudinais que atravessam o disco e a parte declive (Fig. 46.2F)",
+        "next_step": null,
+        "taxon_result": "Scoliidae"
+      },
+      {
+        "id": "opt_2b",
+        "description": "Metacoxas (cx3) quase contíguas, não cobertas por lâminas (Fig. 46.2B); metasterno não se expande posterior e basalmente, não é largo nem ao mesmo nível do mesosterno (Fig. 46.2C); asas não enrugadas longitudinalmente na parte apical (Fig. 46.2E); propódeo sem 2 sulcos longitudinais atravessando o disco e a parte declive (Fig. 46.2G)",
+        "next_step": "step_3",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_3": {
+    "trait_description": "Expansão do mesosterno e lóbulo jugal",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_3a",
+        "description": "Mesosterno se expande posterior e medialmente como um par de pequenas lâminas que se sobrepõem às bases das mesocoxas (cx2) (Fig. 46.3A); asa posterior sempre com lóbulo jugal (Fig. 46.3C)",
+        "next_step": "step_4",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_3b",
+        "description": "Mesosterno não se expande posterior e medialmente sobre as bases das mesocoxas (cx2) (Fig. 46.3B); asa posterior às vezes sem lóbulo jugal (Fig. 46.3D), geralmente com lóbulo",
+        "next_step": "step_5",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_4": {
+    "trait_description": "Cerdas espiniformes nas antenas e margem interna do olho",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_4a",
+        "description": "Antena com cerdas parecidas com espinhos ao menos nos flagelômeros 5 e 6 (Fig. 46.4A,a); olho com margem interna notavelmente escotada (Fig. 46.4A,b); macho com o último esterno metassomal visível simples e exposto, não em forma de espinho apical (Fig. 46.4C)",
+        "next_step": null,
+        "taxon_result": "alguns Rhopalosomatidae"
+      },
+      {
+        "id": "opt_4b",
+        "description": "Antena sem cerdas parecidas com espinhos (Fig. 46.4B,aa); olho com margem interna convexa ou suavemente sinuosa (Fig. 46.4B,bb); macho com o último esterno metassomal visível normalmente em forma de espinho apical, frequentemente curvado para cima como gancho (Fig. 46.4B), às vezes simples ou parcialmente oculto",
+        "next_step": null,
+        "taxon_result": "maioria de Tiphiidae"
+      }
+    ]
+  },
+  "step_5": {
+    "trait_description": "Primeiro segmento metassomal nodiforme",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_5a",
+        "description": "Primeiro segmento metassomal em forma de nodo, em vista lateral com o tergo expandido no meio e mais ou menos com brusca constrição em ambas as extremidades (Fig. 46.5A,B,C,D,E,F); segundo segmento metassomal às vezes em forma de nodo ou com claras constrições dorsal e ventral entre os segmentos 2 e 3 (Fig. 46.5D,E,F)",
+        "next_step": "step_6",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_5b",
+        "description": "Metassoma sem segmentos nodiformes; primeiro tergo em vista lateral sem abruptas constrições apicais (Fig. 46.5G), embora às vezes possa estar alargado na parte média e/ou o tergo 2 às vezes possa estreitar-se anteriormente; sem constrição entre os tergos metassomais 2 e 3 (Fig. 46.5G)",
+        "next_step": "step_12",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_6": {
+    "trait_description": "Linha de feltro ou sulco profundo no tergo/esterno metassomal 2",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_6a",
+        "description": "Segundo tergo metassomal e/ou esterno lateralmente com linha de feltro (felt line) composta por cerdas densas recumbentes, ou com sulco profundo lateral longitudinal (Fig. 46.6A,B)",
+        "next_step": "step_7",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_6b",
+        "description": "Segundo tergo metassomal e esterno sem linhas de feltro e sem sulcos profundos laterais (Fig. 46.6C)",
+        "next_step": "step_8",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_7": {
+    "trait_description": "Posição do metasterno e forma do último esterno metassomal",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_7a",
+        "description": "Metasterno em grande parte oculto, sem projeção anterior, com forte depressão anterior e medial para acomodar as mesocoxas (cx2) contíguas (Fig. 46.7A); metassoma com o último esterno visível simples, bilobado ou emarginado apicalmente, não em forma de gancho (Fig. 46.7C,b); asa posterior sem lóbulo jugal (Fig. 46.7E); segundo esterno metassomal frequentemente com linhas de feltro (Fig. 46.7C,d)",
+        "next_step": null,
+        "taxon_result": "alguns machos de Mutillidae"
+      },
+      {
+        "id": "opt_7b",
+        "description": "Metasterno claramente projetado anteriormente entre as mesocoxas (cx2) separadas (Fig. 46.7B), não totalmente deprimido; metassoma com o último esterno visível usualmente formando gancho médio dirigido para cima (Fig. 46.7D,bb), esterno às vezes simples; asa posterior geralmente com lóbulo jugal (Fig. 46.7F); segundo esterno metassomal sem linhas de feltro (Fig. 46.7D,dd)",
+        "next_step": null,
+        "taxon_result": "alguns machos de Bradynobaenidae"
+      }
+    ]
+  },
+  "step_8": {
+    "trait_description": "Forma do último esterno metassomal e proporções do metassoma",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_8a",
+        "description": "Último esterno metassomal visível forma um gancho dirigido para cima (Fig. 46.8A); metassoma predominantemente cilíndrico, ao menos duas vezes mais longo e mais delgado que o mesossoma",
+        "next_step": null,
+        "taxon_result": "poucos machos de Tiphiidae"
+      },
+      {
+        "id": "opt_8b",
+        "description": "Último esterno metassomal visível geralmente simples, nunca forma um gancho dirigido para cima (Fig. 46.8B); metassoma muito raramente cilíndrico, geralmente menos de duas vezes mais longo que o mesossoma e ao menos tão largo quanto este",
+        "next_step": "step_9",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_9": {
+    "trait_description": "Ápice posterior lateral do pronoto e célula discal da asa anterior",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_9a",
+        "description": "Pronoto com o ápice posterior lateral claramente angulado ou retangular, estendido levemente acima e além da margem anterior da tégula (tg) (Fig. 46.9A,a); asa anterior com a primeira célula discal (1D) ao menos tão longa quanto a sub-basal (SB) (Fig. 46.9C); asa anterior geralmente dobrada longitudinalmente; olho com margem interna notoriamente emarginada (Fig. 46.9A,d)",
+        "next_step": null,
+        "taxon_result": "poucos Vespidae"
+      },
+      {
+        "id": "opt_9b",
+        "description": "Pronoto com o ápice posterior lateral geralmente arredondado ou truncado, não se estende além da margem anterior da tégula (tg) (Fig. 46.9B,aa); asa anterior com a primeira célula discal (1D) muito mais curta que a sub-basal (SB) (Fig. 46.9D); asa anterior plana, não dobrada longitudinalmente; olho com margem interna geralmente convexa ou levemente sinuada (Fig. 46.9B,dd)",
+        "next_step": "step_10",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_10": {
+    "trait_description": "Posição da radícula e células submarginais",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_10a",
+        "description": "Escapo com a radícula inserida em ângulo reto com o eixo do escapo, geralmente oculta na depressão basal deste (Fig. 46.10A); asa anterior geralmente com três células submarginais fechadas (SM) (Fig. 46.10C)",
+        "next_step": null,
+        "taxon_result": "poucos machos de Mutillidae"
+      },
+      {
+        "id": "opt_10b",
+        "description": "Escapo com a radícula escassamente desviada do eixo do escapo, não oculta na base deste (Fig. 46.10B); asa anterior com duas ou menos células submarginais fechadas (SM) (Fig. 46.10D)",
+        "next_step": "step_11",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_11": {
+    "trait_description": "Intensidade do primeiro segmento nodiforme e comprimento do pronoto",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_11a",
+        "description": "Primeiro segmento metassomal fortemente nodiforme, com constrição posterior clara (Fig. 46.11A); segundo segmento metassomal às vezes nodiforme ou com constrições conspícuas (Fig. 46.11B); pronoto com margem posterior dorsal geralmente com concavidade profunda, comprimento da superfície dorsal geralmente menos de um terço do mesoscudo (Fig. 46.11D); antena da fêmea geniculada entre escapo e pedicelo, escapo mais de cinco vezes mais longo que largo (Fig. 46.11F)",
+        "next_step": null,
+        "taxon_result": "alguns Formicidae"
+      },
+      {
+        "id": "opt_11b",
+        "description": "Primeiro segmento metassomal fracamente nodiforme, com o tergo fracamente estreitado posteriormente (Fig. 46.11C,aa); segmentos metassomais 2 e 3 sem constrição (Fig. 46.11C,bb); margem posterior do pronoto com concavidade superficial, comprimento da superfície dorsal mais da metade do mesoscudo (Fig. 46.11E); antena da fêmea não geniculada, escapo menos de três vezes mais longo que largo (Fig. 46.11G)",
+        "next_step": null,
+        "taxon_result": "poucos Sierolomorphidae"
+      }
+    ]
+  },
+  "step_12": {
+    "trait_description": "Linha de feltro ou sulco no tergo/esterno metassomal 2 (sem segmentos nodiformes)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_12a",
+        "description": "Tergo metassomal 2 e/ou esterno 2 lateralmente com linha de feltro de cerdas densas recumbentes (felt line) ou com sulco profundo longitudinal (Fig. 46.12A,B); último esterno metassomal visível às vezes com três espinhos apicais; asa anterior às vezes sem células marginal e submarginais",
+        "next_step": "step_13",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_12b",
+        "description": "Tergo metassomal 2 e/ou esterno 2 sem linha de feltro nem sulco profundo longitudinal (Fig. 46.12C); se há sulco fino, estende-se desde a margem anterior até quase toda a extensão do esclerito (Fig. 46.12D); último esterno metassomal geralmente simples; asa anterior com células marginal e/ou submarginais bem definidas",
+        "next_step": "step_14",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_13": {
+    "trait_description": "Posição do metasterno e forma do último esterno (com linha de feltro, sem nodo)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_13a",
+        "description": "Metasterno em sua maior parte oculto, não projetado anteriormente, com forte depressão anterior e medial para acomodar as mesocoxas contíguas (Fig. 46.13A); metassoma com o último esterno visível simples ou com emarginação apical, raramente com 2 espinhos débeis (Fig. 46.13E,b); segundo esterno metassomal às vezes com, mas geralmente sem linha de feltro (Fig. 46.13E,a); asa posterior sem lóbulo jugal (Fig. 46.13C)",
+        "next_step": null,
+        "taxon_result": "muitos machos de Mutillidae"
+      },
+      {
+        "id": "opt_13b",
+        "description": "Metasterno conspícuo e levemente projetado anteriormente entre as mesocoxas separadas (Fig. 46.13B); metassoma com o último esterno visível geralmente com gancho médio ou com 3 espinhos (Fig. 46.13F,G); segundo esterno metassomal sem linha de feltro; asa posterior geralmente com lóbulo jugal (Fig. 46.13D)",
+        "next_step": null,
+        "taxon_result": "alguns machos de Bradynobaenidae"
+      }
+    ]
+  },
+  "step_14": {
+    "trait_description": "Forma do último esterno metassomal e proporções do metassoma (sem linha de feltro, sem nodo)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_14a",
+        "description": "Último esterno metassomal visível forma um gancho levemente curvo para cima (Fig. 46.14A); metassoma predominantemente cilíndrico, ao menos duas vezes mais longo e delgado que o mesossoma",
+        "next_step": null,
+        "taxon_result": "poucos machos de Tiphiidae"
+      },
+      {
+        "id": "opt_14b",
+        "description": "Último esterno metassomal visível geralmente simples, nunca forma um gancho (Fig. 46.14B); metassoma muito raramente cilíndrico, geralmente menos de duas vezes o comprimento do mesossoma e ao menos tão largo quanto este",
+        "next_step": "step_15",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_15": {
+    "trait_description": "Ápice posterior lateral do pronoto e célula discal (asas, sem linha de feltro, sem nodo)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_15a",
+        "description": "Pronoto com o ápice posterior lateral claramente angulado ou retangular, estendido levemente acima e além da margem anterior da tégula (Fig. 46.15A,a); asa anterior com a primeira célula discal (1D) ao menos tão longa quanto a sub-basal (SB) (Fig. 46.15C); asa anterior geralmente dobrada longitudinalmente; olho com margem interna notoriamente emarginada (Fig. 46.15A,d)",
+        "next_step": null,
+        "taxon_result": "muitos Vespidae"
+      },
+      {
+        "id": "opt_15b",
+        "description": "Pronoto com o ápice posterior lateral geralmente arredondado ou truncado, não se estende além da margem anterior da tégula (Fig. 46.15B,aa); asa anterior com a primeira célula discal (1D) muito mais curta que a sub-basal (SB) (Fig. 46.15D); asa anterior plana; olho com margem interna geralmente convexa ou suavemente sinuada (Fig. 46.15B,dd)",
+        "next_step": "step_16",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_16": {
+    "trait_description": "Sulco oblíquo no mesepisterno e esporão tibial posterior",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_16a",
+        "description": "Mesepisterno com um sulco oblíquo atravessando o esclerito (Fig. 46.16A); pata posterior com o esporão tibial interno provido de um tufo ou fila de cerdas finas na posição basal, associadas a uma região muito sedosa na base do tarsômero 1 (Fig. 46.16C); patas geralmente notavelmente longas e delgadas; asa posterior com lóbulo jugal (Fig. 46.16E)",
+        "next_step": null,
+        "taxon_result": "maioria de Pompilidae"
+      },
+      {
+        "id": "opt_16b",
+        "description": "Mesepisterno sem sulco oblíquo, às vezes com depressões ou hoyuelos (Fig. 46.16B); pata posterior com esporão tibial interno sem tufos ou filas basais de cerdas; tarsômero 1 mais ou menos uniformemente sedoso (Fig. 46.16D); patas não notavelmente longas; asa posterior às vezes sem lóbulo jugal (Fig. 46.16F)",
+        "next_step": "step_17",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_17": {
+    "trait_description": "Células submarginais e posição do tórulo",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_17a",
+        "description": "Asa anterior com uma célula submarginal (SM) bem definida, retangular e da mesma largura apical e basal (Fig. 46.17A); tórulo sobre a superfície inferior de uma leve inflação medial da fronte, sem estar parcialmente oculto sob carenas transversas bem definidas ou tubérculos laminados (Fig. 46.17C,b); radícula escassamente desviada do eixo do escapo (Fig. 46.17C,c); corpo com escultura fraca, em grande parte liso",
+        "next_step": null,
+        "taxon_result": "muitos Sierolomorphidae"
+      },
+      {
+        "id": "opt_17b",
+        "description": "Asa anterior com duas ou mais células submarginais bem definidas (Fig. 46.17B); tórulo parcialmente oculto sob uma carena transversa bem definida ou tubérculo laminado (Fig. 46.17D); radícula notoriamente desviada do eixo do escapo e frequentemente oculta na depressão basal deste (Fig. 46.17E); corpo fortemente esculturado, em sua maioria opaco",
+        "next_step": null,
+        "taxon_result": "Sapygidae"
+      }
+    ]
+  },
+  "step_18": {
+    "trait_description": "Expansão do mesosterno (espécimes ápteros/braquípteros)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_18a",
+        "description": "Mesosterno se expande posterior e medialmente como um par de lâminas pequenas que ocultam (em vista ventral) as bases das mesocoxas (Fig. 46.18A)",
+        "next_step": "step_19",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_18b",
+        "description": "Mesosterno não se expande posterior e medialmente sobre as bases das mesocoxas (Fig. 46.18B)",
+        "next_step": "step_20",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_19": {
+    "trait_description": "Superfície posterior da cabeça e alargamento do profêmur",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_19a",
+        "description": "Cabeça com toda a superfície posterior côncava; vértice e gena com uma carena contínua que os borda posteriormente (Fig. 46.19A,a); profêmur fortemente alargado, mais grosso que os outros fêmures (Fig. 46.19C); mesotórax mais estreito que o protórax (Fig. 46.19A,c)",
+        "next_step": null,
+        "taxon_result": "alguns Rhopalosomatidae"
+      },
+      {
+        "id": "opt_19b",
+        "description": "Cabeça com toda a superfície posterior convexa ou plana; vértice e gena sem carena contínua posterior (Fig. 46.19B,aa); profêmur não alargado (Fig. 46.19D); mesotórax geralmente mais largo que o protórax (Fig. 46.19B,cc)",
+        "next_step": null,
+        "taxon_result": "algumas fêmeas de Tiphiidae"
+      }
+    ]
+  },
+  "step_20": {
+    "trait_description": "Sulco longitudinal profundo ou linhas de feltro no tergo/esterno 2 (ápteros)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_20a",
+        "description": "Segundo tergo metassomal e/ou esterno 2 lateralmente com sulco longitudinal profundo, ou com linhas de feltro de cerdas recumbentes (felt lines), ou com hoyuelos de feltro; mesocoxas às vezes claramente separadas por extensão anterior do metasterno (Fig. 46.20A,B,D)",
+        "next_step": "step_21",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_20b",
+        "description": "Segundo tergo metassomal e esterno 2 lateralmente sem sulco profundo, sem linhas de feltro e sem hoyuelos (Fig. 46.20C); mesocoxas contíguas, não claramente separadas por extensão anterior do metasterno (Fig. 46.20E)",
+        "next_step": "step_22",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_21": {
+    "trait_description": "Posição do metasterno e mobilidade do pronoto (ápteros, com linha de feltro)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_21a",
+        "description": "Metasterno conspícuo, estendido anteriormente entre as mesocoxas separadas (Fig. 46.21A); pronoto móvel, articulando-se com o mesotórax por sutura evidente, com margem posterior dorsal reta ou levemente côncava (Fig. 46.21C,b); comprimento do pronoto ao menos dois terços do comprimento dorsal do mesonoto e propódeo fusionados (Fig. 46.21C,c)",
+        "next_step": null,
+        "taxon_result": "fêmeas de Bradynobaenidae"
+      },
+      {
+        "id": "opt_21b",
+        "description": "Metasterno em sua maior parte oculto, não estendido anteriormente, com notória depressão anterior medial para acomodar as mesocoxas contíguas (Fig. 46.21B); pronoto geralmente fundido com o mesotórax, às vezes com sutura marcando margem posterior lateral côncava (Fig. 46.21D,bb); comprimento do pronoto menos de um terço do comprimento dorsal do mesonoto e propódeo (Fig. 46.21D,cc)",
+        "next_step": null,
+        "taxon_result": "alguns Mutillidae"
+      }
+    ]
+  },
+  "step_22": {
+    "trait_description": "Primeiro segmento metassomal nodiforme (ápteros, sem linha de feltro)",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_22a",
+        "description": "Metassoma com o primeiro segmento nodiforme, em vista lateral primeiro tergo expandido na parte média e mais ou menos com abruptas constrições em ambas as extremidades (Fig. 46.22A,B,a); segundo segmento metassomal às vezes nodiforme ou com claras constrições dorsal e ventral entre os segmentos 2 e 3 (Fig. 46.22B,b)",
+        "next_step": "step_23",
+        "taxon_result": null
+      },
+      {
+        "id": "opt_22b",
+        "description": "Metassoma sem segmentos nodiformes, em vista lateral primeiro tergo sem abruptas constrições em ambas as extremidades (Fig. 46.22C,aa); sem constrição entre os segmentos metassomais 2 e 3 (Fig. 46.22C,bb)",
+        "next_step": "step_24",
+        "taxon_result": null
+      }
+    ]
+  },
+  "step_23": {
+    "trait_description": "Posição da radícula, comprimento do escapo e glândula metapleural",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_23a",
+        "description": "Radícula sem desviar-se muito do eixo do escapo, não oculta pela depressão basal deste (Fig. 46.23A,a); comprimento do escapo mais de cinco vezes a largura (Fig. 46.23A,b); segundo segmento metassomal (pós-pecíolo) às vezes nodiforme; glândula metapleural presente (fêmeas e operárias)",
+        "next_step": null,
+        "taxon_result": "muitos Formicidae"
+      },
+      {
+        "id": "opt_23b",
+        "description": "Radícula perpendicular ao eixo do escapo, geralmente oculta na depressão basal deste (Fig. 46.23B,aa); escapo menos de quatro vezes mais longo que largo (Fig. 46.23B,bb); segundo segmento metassomal sem constrição dorsal clara; glândula metapleural ausente",
+        "next_step": null,
+        "taxon_result": "poucas fêmeas de Mutillidae"
+      }
+    ]
+  },
+  "step_24": {
+    "trait_description": "Sutura entre metanoto e mesonoto e forma do mesossoma",
+    "images": [],
+    "options": [
+      {
+        "id": "opt_24a",
+        "description": "Sutura entre metanoto e mesonoto não evidente (Fig. 46.24A); dorso do mesossoma envolve uma região distinta; mesossoma geralmente menos de duas vezes tão longo quanto largo; pata posterior com esporão tibial interno dorsalmente não em forma de pente ou escova",
+        "next_step": null,
+        "taxon_result": "poucas fêmeas de Mutillidae"
+      },
+      {
+        "id": "opt_24b",
+        "description": "Sutura entre metanoto e mesonoto evidente (Fig. 46.24B), frequentemente móvel; dorso do mesossoma envolve três regiões distintas; mesossoma geralmente alongado, frequentemente ao menos três vezes mais longo que largo; pata posterior com esporão tibial interno dorsalmente em forma de pente ou escova",
+        "next_step": null,
+        "taxon_result": "poucas fêmeas de Tiphiidae"
+      }
+    ]
+  }
+}

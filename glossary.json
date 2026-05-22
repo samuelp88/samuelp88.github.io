@@ -1,30 +1,798 @@
-{
-  "tórax": {
-    "definition": "Segmento médio do corpo dos insetos (mesossoma), localizado entre a cabeça e o abdômen. Suporta as pernas e asas.",
+﻿{
+  "abdome": {
+    "definition": "Principal divisão posterior do corpo, posterior aos segmentos com patas e composta de 10 ou menos segmentos aparentes. Em muitos <<Symphyta>>, o primeiro segmento abdominal é reconhecível por sua divisão mediana (ver metassoma, propódeo).",
+    "image": "/assets/images/glossary/abdome.png"
+  },
+  "abscisa": {
+    "definition": "Segmento de uma veia da asa delimitado pela intersecção de outras veias.",
+    "image": "/assets/images/glossary/abscisa.png"
+  },
+  "agudo": {
+    "definition": "Em ângulo menor que 90°.",
     "image": null
+  },
+  "anelo": {
+    "definition": "Um ou mais segmentos flagelares basais que podem ser abruptamente menores (geralmente transversos ou em forma de anel) e sem sénsulas longitudinais.",
+    "image": null
+  },
+  "antena": {
+    "definition": "Par de apêndices segmentados e sensoriais da cabeça, localizados entre os olhos compostos e consistindo em três segmentos com músculos intrínsecos: escapo, pedicelo e flagelo.",
+    "image": "/assets/images/glossary/antena.png"
+  },
+  "anulado": {
+    "definition": "Anelado; com forma de segmentos em anéis ou padrões de cores.",
+    "image": "/assets/images/glossary/anulado.png"
+  },
+  "apêndice_mesoscutelar": {
+    "definition": "Em <<Symphyta>>, a subdivisão posterior do mesoscutelo, geralmente em forma de crescente e sobreposta ao posnoto do mesotórax.",
+    "image": "/assets/images/glossary/apêndice_mesoscutelar.png"
+  },
+  "ápice": {
+    "definition": "Parte de uma estrutura mais afastada de seu ponto de união com o corpo.",
+    "image": null
+  },
+  "areola": {
+    "definition": "Em Ichneumonoidea, a área mediana do propódeo que está encerrada por carenas.",
+    "image": "/assets/images/glossary/areola.png"
+  },
+  "areolete": {
+    "definition": "Em Ichneumonidae, a célula pequena no centro da asa anterior; a primeira célula do setor radial.",
+    "image": "/assets/images/glossary/areolete.png"
+  },
+  "arolio": {
+    "definition": "Lóbulo médio semelhante a almofada, entre as unhas tarsais (ver pretarso).",
+    "image": "/assets/images/glossary/arolio.png"
+  },
+  "articulação_transescudal": {
+    "definition": "Uma linha fraca através do mesonoto entre as bases das asas, que separa secundariamente os ângulos posterolaterais do mesoscuto contíguo ao escutelo (ver também axila, escudo).",
+    "image": "/assets/images/glossary/articulação_transescudal.png"
+  },
+  "axila": {
+    "definition": "Em grupos com articulação transescudal, porção posterolateral do mesoscuto separada do mesoscudo lateral ao escutelo; geralmente triangular (ver escudo).",
+    "image": "/assets/images/glossary/axila.png"
+  },
+  "axilula": {
+    "definition": "Em Chalcidoidea, a subdivisão lateral do escutelo delimitada por uma linha longitudinal.",
+    "image": "/assets/images/glossary/axilula.png"
+  },
+  "base": {
+    "definition": "Parte de uma estrutura próxima de seu ponto de união com o corpo.",
+    "image": null
+  },
+  "bula": {
+    "definition": "Área não pigmentada de uma veia onde está atravessada por uma dobra alar ou linha de flexão.",
+    "image": "/assets/images/glossary/bula.png"
+  },
+  "cabeça": {
+    "definition": "Principal divisão anterior do corpo, que porta as peças bucais e antenas.",
+    "image": null
+  },
+  "cara": {
+    "definition": "Área medial da cabeça, acima e às vezes contígua ao clípeo, cuja margem dorsal se define por uma linha transversa imaginária ao nível das margens ventrais dos tórulos.",
+    "image": "/assets/images/glossary/cara.png"
+  },
+  "cardo": {
+    "definition": "Parte basal da maxila.",
+    "image": "/assets/images/glossary/cardo.png"
+  },
+  "carena": {
+    "definition": "Uma linha elevada (quilha) sobre o tegumento.",
+    "image": null
+  },
+  "carena_epicnemial": {
+    "definition": "Carena sobre a mesopleura, mais ou menos paralela à margem anterior do mesepisterno, que delineia a margem posterior do epicnêmio.",
+    "image": "/assets/images/glossary/carena_epicnemial.png"
+  },
+  "carena_escudal_oblíqua": {
+    "definition": "Em esfeciformes, a carena sobre o mesoscuto que se estende obliquamente, posterior e medialmente, a partir da margem lateral próxima à parte posterior da tégula.",
+    "image": null
+  },
+  "carena_frontal": {
+    "definition": "Uma carena ou par de carenas longitudinais sobre a fronte, entre os tórulos, às vezes cobrindo-os parcialmente.",
+    "image": "/assets/images/glossary/carena_frontal.png"
+  },
+  "carena_hipostomal": {
+    "definition": "Carena sobre a parte posterior da cabeça ao longo da cavidade oral, que normalmente delimita o hipostoma da postgena e occipúcio.",
+    "image": "/assets/images/glossary/carena_hipostomal.png"
+  },
+  "carena_occipital": {
+    "definition": "Carena sobre a parte posterior da cabeça que separa o occipúcio do vértice e da gena; a parte ventral da carena é às vezes chamada de carena genal.",
+    "image": "/assets/images/glossary/carena_occipital.png"
+  },
+  "carena_postpectal": {
+    "definition": "Em Ichneumonoidea, a carena transversa posterior na parte ventral da mesopleura, logo à frente da mesocoxa.",
+    "image": "/assets/images/glossary/carena_postpectal.png"
+  },
+  "carena_propodeal": {
+    "definition": "Em Ichneumonoidea, uma ou várias carenas longitudinais ou transversas sobre o propódeo.",
+    "image": "/assets/images/glossary/carena_propodeal.png"
+  },
+  "carena_subgenal": {
+    "definition": "Carena que borda ventralmente a gena; estende-se da carena hipostomal até a articulação anterior ou facial da mandíbula.",
+    "image": "/assets/images/glossary/carena_subgenal.png"
+  },
+  "carena_submetapleural": {
+    "definition": "Carena sobre a margem ventral da parte inferior da metapleura, entre as bases das mesocoxas e metacoxas.",
+    "image": "/assets/images/glossary/carena_submetapleural.png"
+  },
+  "cavidade_oral": {
+    "definition": "A abertura da cabeça da qual se suspendem as peças bucais.",
+    "image": null
+  },
+  "célula": {
+    "definition": "A área entre as veias de uma asa; diz-se que está fechada quando está completamente rodeada de veias; caso contrário, considera-se aberta.",
+    "image": "/assets/images/glossary/célula.png"
+  },
+  "cencro": {
+    "definition": "Em himenópteros basais, uma estrutura em par, oval ou circular, sobre a porção semilateral do metascudo.",
+    "image": "/assets/images/glossary/cencro.png"
+  },
+  "cerco": {
+    "definition": "Apêndices sensoriais pareados posteriores sobre o último tergo abdominal (o décimo morfológico), que geralmente portam várias cerdas. Com a redução dos segmentos apicais do metassoma, os cercos parecem estar sobre um segmento mais anterior.",
+    "image": "/assets/images/glossary/cerco.png"
+  },
+  "clípeo": {
+    "definition": "O esclerito medial da cabeça imediatamente acima do lábro; frequentemente definido dorsal e lateralmente por um sulco epistomal.",
+    "image": "/assets/images/glossary/clípeo.png"
+  },
+  "colar_pronotal": {
+    "definition": "A superfície horizontal do pronoto, posterior à região inclinada e frequentemente estreita que está atrás da cabeça.",
+    "image": "/assets/images/glossary/colar_pronotal.png"
+  },
+  "comprimido": {
+    "definition": "Achatado lateralmente (mais alto que largo).",
+    "image": null
+  },
+  "côncavo": {
+    "definition": "Uma estrutura, margem ou superfície que se curva para dentro (ver convexo).",
+    "image": null
+  },
+  "convexo": {
+    "definition": "Uma estrutura, margem ou superfície que se curva para fora (ver côncavo).",
+    "image": null
+  },
+  "corbícula": {
+    "definition": "Em Apiformes, a região côncava e lisa da metatibia, margeada por um bordo de cerdas que surgem de suas margens, formando a cesta de pólen.",
+    "image": "/assets/images/glossary/corbícula.png"
+  },
+  "coxa": {
+    "definition": "O primeiro segmento da pata, entre o corpo e o trocânter.",
+    "image": "/assets/images/glossary/coxa.png"
+  },
+  "deprimido": {
+    "definition": "Achatado de cima para baixo (mais largo que alto).",
+    "image": null
+  },
+  "disco": {
+    "definition": "A superfície central de qualquer estrutura.",
+    "image": null
+  },
+  "emarginado": {
+    "definition": "Com incisão; com uma seção obtusa, arredondada ou quadrada na margem.",
+    "image": "/assets/images/glossary/emarginado.png"
+  },
+  "epicnêmio": {
+    "definition": "Porção anterior da mesopleura, delimitada posteriormente pela carena epicnemial (ver também prepecto).",
+    "image": "/assets/images/glossary/epicnêmio.png"
+  },
+  "epimero": {
+    "definition": "A porção de uma pleura posterior ao sulco pleural (ver episterno).",
+    "image": "/assets/images/glossary/epimero.png"
+  },
+  "epipígio": {
+    "definition": "Em Chalcidoidea, uma estrutura pequena, mais ou menos esclerotizada, em forma de unha, unida ao último tergo metassomal entre os cercos.",
+    "image": "/assets/images/glossary/epipígio.png"
+  },
+  "epomia": {
+    "definition": "Em Ichneumonoidea, uma carena oblíqua que cruza o sulco transverso ao lado do pronoto.",
+    "image": "/assets/images/glossary/epomia.png"
+  },
+  "escapo": {
+    "definition": "A primeira divisão primária ou segmento da antena, incluindo basalmente a radícula; articula-se apicalmente com o pedicelo e basalmente com o tórulo.",
+    "image": "/assets/images/glossary/escapo.png"
+  },
+  "esclerito": {
+    "definition": "Placa endurecida do tegumento, separada de outras placas por suturas ou membranas.",
+    "image": null
+  },
+  "esclerotizado": {
+    "definition": "Referente ao tegumento do corpo: relativamente duro e geralmente com áreas de pigmentos escuros em contraste com outras áreas sem cor, flexíveis e membranosas.",
+    "image": null
+  },
+  "escopa": {
+    "definition": "Em Apiformes, uma estrutura em forma de escova, conformada por pelos curtos e firmes de igual comprimento, usados para coleta de pólen.",
+    "image": null
+  },
+  "escroba": {
+    "definition": "Um sulco no tegumento do corpo para receber ou ocultar um apêndice, como uma depressão longitudinal na cabeça sobre cada tórulo para a recepção do escapo, ou um sulco sobre a mesopleura para a recepção do mesofêmur.",
+    "image": "/assets/images/glossary/escroba.png"
+  },
+  "escudo": {
+    "definition": "O esclerito anterior do noto, à frente do escutelo. Em Apocrita, o mesoscudo é funcional somente na área à frente da articulação transescudal; a axila, embora morfologicamente parte do mesoscudo, é tratada como separada.",
+    "image": "/assets/images/glossary/escudo.png"
+  },
+  "escutura": {
+    "definition": "Marcas ou padrões de impressão ou elevações sobre a superfície de uma estrutura.",
+    "image": null
+  },
+  "escutelo": {
+    "definition": "A região mediana do mesonoto ou metanoto, atrás do escudo. Em Apocrita, apenas o mesoscutelo é evidente e simplesmente chamado de escutelo; em <<Symphyta>>, mesoscutelo e metascutelo estão presentes.",
+    "image": "/assets/images/glossary/escutelo.png"
+  },
+  "espaço_malar": {
+    "definition": "A distância mais curta entre a base da mandíbula e a margem do olho composto.",
+    "image": "/assets/images/glossary/espaço_malar.png"
+  },
+  "espiráculos": {
+    "definition": "Abertura pequena, redonda ou oval, nos lados do corpo, por onde o ar entra nas traquéias.",
+    "image": "/assets/images/glossary/espiráculos.png"
+  },
+  "esporão_tibial": {
+    "definition": "Uma extensão da cutícula em forma de espinho, conectada por um alvéolo; geralmente em posição apical sobre as tíbias.",
+    "image": "/assets/images/glossary/esporão_tibial.png"
+  },
+  "esternaulo": {
+    "definition": "A carena ou sulco horizontal lateroventral próximo à margem inferior da mesopleura, estendendo-se do extremo inferior da carena epicnemial até a mesocoxa.",
+    "image": "/assets/images/glossary/esternaulo.png"
+  },
+  "esternito": {
+    "definition": "Subdivisão esclerotizada de um esterno, limitada por sulcos, linhas ou áreas membranosas.",
+    "image": null
+  },
+  "esterno": {
+    "definition": "Divisão ventral de um segmento corporal, que pode estar subdividida em esternitos; geralmente este termo refere-se apenas aos segmentos do abdome/metassoma e ao protórax.",
+    "image": "/assets/images/glossary/esterno.png"
+  },
+  "estigma": {
+    "definition": "Uma esclerotização espessa e geralmente escura sobre a asa anterior em direção ao ápice da veia costal. Em Chalcidoidea, um alargamento em forma de botão em direção ao ápice da veia estigmal.",
+    "image": "/assets/images/glossary/estigma.png"
+  },
+  "estipe": {
+    "definition": "O maior esclerito da maxila; articula-se basalmente com o cardo, apicalmente com a galea e a lacínia, e lateralmente com os palpos maxilares.",
+    "image": "/assets/images/glossary/estipe.png"
+  },
+  "fêmur": {
+    "definition": "O terceiro segmento da pata, entre o trocânter e a tíbia.",
+    "image": "/assets/images/glossary/fêmur.png"
+  },
+  "flabelo": {
+    "definition": "Em Apiformes, uma placa pequena e tênue em direção ao ápice da glossa.",
+    "image": "/assets/images/glossary/flabelo.png"
+  },
+  "flagelo": {
+    "definition": "A terceira divisão primária ou segmento da antena; articula-se com o pedicelo basalmente e quase sempre se subdivide em flagelômeros.",
+    "image": "/assets/images/glossary/flagelo.png"
+  },
+  "flagelômero": {
+    "definition": "Uma subdivisão em forma de segmento do flagelo; numerado consecutivamente a partir da base do flagelo.",
+    "image": "/assets/images/glossary/flagelômero.png"
+  },
+  "forame": {
+    "definition": "Um orifício na parede do corpo por onde passam vasos e nervos. O forame magno é o orifício central na parte posterior da cabeça; o forame propodeal é o orifício na área posterior do propódeo.",
+    "image": "/assets/images/glossary/forame.png"
+  },
+  "fovea_facial": {
+    "definition": "Em Apoidea, uma área deprimida, frequentemente com pubescência fina e densa ao longo da órbita interna do olho composto.",
+    "image": "/assets/images/glossary/fovea_facial.png"
+  },
+  "freno": {
+    "definition": "Em Chalcidoidea, a linha transversa sobre o escutelo que delineia a porção posterior do escutelo, a área frenal.",
+    "image": "/assets/images/glossary/freno.png"
+  },
+  "fronte": {
+    "definition": "A área da cabeça entre a margem ventral do tórulo e a margem anterior do ocelo médio.",
+    "image": "/assets/images/glossary/fronte.png"
+  },
+  "funículo": {
+    "definition": "Grupo de flagelômeros entre o pedicelo e a maza antenal.",
+    "image": "/assets/images/glossary/funículo.png"
+  },
+  "galea": {
+    "definition": "Lóbulo apical externo da maxila, articulado basalmente com os estipes.",
+    "image": "/assets/images/glossary/galea.png"
+  },
+  "gastrocelo-tirídio": {
+    "definition": "Em Ichneumoninae (Ichneumonidae), a impressão ovoide em posição anterolateral sobre o tergo 2, entre o espiráculos e a base. O gastrocelo inclui o tirídio (área com escultura especializada) e a impressão em si.",
+    "image": "/assets/images/glossary/gastrocelo-tirídio.png"
+  },
+  "gena": {
+    "definition": "A bochecha; a parte lateral da cabeça entre o olho composto e a carena occipital (se presente); caso contrário, a parte inferior (em cabeças hipognatas) ou anterior (em cabeças prognatas) da seção posterior da cabeça entre o olho e o occipúcio.",
+    "image": "/assets/images/glossary/gena.png"
+  },
+  "glima": {
+    "definition": "Em Ichneumonidae, sulco ou fóvea em par no lado do segmento metassomal 1, entre sua base e o espiráculos; quase sempre presente quando o esterno 1 está livre do tergo 1, mas ausente quando tergo 1 e esterno 1 estão fundidos.",
+    "image": "/assets/images/glossary/glima.png"
+  },
+  "glossa": {
+    "definition": "Lóbulos medianos fundidos do lábio, articulados basalmente com o prementum.",
+    "image": "/assets/images/glossary/glossa.png"
+  },
+  "hâmulo": {
+    "definition": "Um dos ganchinhos pequenos, semelhantes a cílios, sobre a margem anterior da asa posterior; em alguns grupos há séries de hâmulos basais e apicais.",
+    "image": "/assets/images/glossary/hâmulo.png"
+  },
+  "hipognato": {
+    "definition": "Com a cabeça mais ou menos em ângulo reto com o plano (vertical) do corpo, de tal forma que as peças bucais estão dirigidas ventralmente (ver prognato).",
+    "image": "/assets/images/glossary/hipognato.png"
+  },
+  "hipopígio": {
+    "definition": "O último esterno visível do abdome.",
+    "image": "/assets/images/glossary/hipopígio.png"
+  },
+  "incisão_costal": {
+    "definition": "Incisão sobre a margem da asa entre o ápice da veia costal e a base do estigma.",
+    "image": "/assets/images/glossary/incisão_costal.png"
+  },
+  "lábio": {
+    "definition": "O apêndice posterior e medial das peças bucais, entre e abaixo das maxilas, composto pelo submentum, mentum, prementum, glossa, paraglossa e palpos labiais.",
+    "image": "/assets/images/glossary/lábio.png"
+  },
+  "lábro": {
+    "definition": "O apêndice anterior e medial das peças bucais, unido por baixo e frequentemente oculto pelo clípeo.",
+    "image": "/assets/images/glossary/lábro.png"
+  },
+  "lacínia": {
+    "definition": "O lóbulo interno apical da maxila, articulado aos estipes.",
+    "image": "/assets/images/glossary/lacínia.png"
+  },
+  "lâmina": {
+    "definition": "Placa tênue ou processo semelhante a uma folha.",
+    "image": null
+  },
+  "laterotergito": {
+    "definition": "A parte lateral de um tergo, separada deste por uma dobra, que pode estar pendente ou dobrada ventralmente (ver também tergo).",
+    "image": "/assets/images/glossary/laterotergito.png"
+  },
+  "linha_de_feltro": {
+    "definition": "Em Mutillidae e Bradynobaenidae, uma linha longitudinal de cerdas achatadas e poros secretores, em posição lateral sobre o tergo metassomal 2.",
+    "image": "/assets/images/glossary/linha_de_feltro.png"
+  },
+  "lóbulo_claval": {
+    "definition": "A parte posterior da asa atrás da dobra claval e à frente da dobra jugal, se presente (ver também lóbulo jugal).",
+    "image": "/assets/images/glossary/lóbulo_claval.png"
+  },
+  "lóbulo_jugal": {
+    "definition": "Área posterior da asa atrás da veia 1A; destaca-se de áreas mais anteriores por uma dobra leve sobre a asa e por uma incisão sobre a margem da asa (ver também lóbulo claval).",
+    "image": "/assets/images/glossary/lóbulo_jugal.png"
+  },
+  "lóbulo_mesoscudal": {
+    "definition": "Ver mesoscudo.",
+    "image": null
+  },
+  "lóbulo_plantar": {
+    "definition": "Almofada pequena e membranosa que se projeta do ápice ventral dos tarsômeros 1 a 4.",
+    "image": "/assets/images/glossary/lóbulo_plantar.png"
+  },
+  "lóbulo_pronotal": {
+    "definition": "Extensão arredondada posterolateral do pronoto que cobre o espiráculos mesotorácico.",
+    "image": "/assets/images/glossary/lóbulo_pronotal.png"
+  },
+  "mandíbula": {
+    "definition": "Das peças bucais, o apêndice lateral e em par, fortemente esclerotizado, para morder e mastigar, entre o lábro e a maxila.",
+    "image": "/assets/images/glossary/mandíbula.png"
+  },
+  "mandíbula_endodonte": {
+    "definition": "Mandíbula com os dentes dirigidos para dentro, de tal forma que quando as mandíbulas estão fechadas suas pontas apontam para suas bases (ver exodonte).",
+    "image": "/assets/images/glossary/mandíbula_endodonte.png"
+  },
+  "mandíbula_exodonte": {
+    "definition": "Mandíbula com os dentes dirigidos para fora, de tal forma que quando as mandíbulas estão fechadas suas pontas apontam para fora (ver endodonte).",
+    "image": "/assets/images/glossary/mandíbula_exodonte.png"
+  },
+  "maxila": {
+    "definition": "Apêndices em par das peças bucais, entre as mandíbulas e o lábio, conformados por cardo, estipes, lacínia, galea e palpos maxilares.",
+    "image": "/assets/images/glossary/maxila.png"
+  },
+  "maza": {
+    "definition": "O(s) flagelômero(s) apical(ais) alargado(s) de uma antena (ver também funículo).",
+    "image": "/assets/images/glossary/maza.png"
+  },
+  "mentum": {
+    "definition": "O esclerito basal do lábio, articulado basalmente com o submentum e apicalmente com o prementum; frequentemente fundido com este último e indistinguível como esclerito separado.",
+    "image": "/assets/images/glossary/mentum.png"
+  },
+  "mesepimero": {
+    "definition": "A subdivisão posterior da mesopleura, geralmente pequena em relação ao mesepisterno, ou quase ausente.",
+    "image": "/assets/images/glossary/mesepimero.png"
+  },
+  "mesepisterno": {
+    "definition": "A subdivisão anterior da mesopleura, que geralmente compreende grande parte da mesopleura.",
+    "image": "/assets/images/glossary/mesepisterno.png"
+  },
+  "meso": {
+    "definition": "Prefixo de origem grega que faz referência a parte(s) mediana(s); usado latinizado.",
+    "image": null
+  },
+  "mesonoto": {
+    "definition": "A parte dorsal do mesotórax.",
+    "image": "/assets/images/glossary/mesonoto.png"
+  },
+  "mesopleura": {
+    "definition": "A parte lateral e ventral do mesotórax (ver também mesosterno).",
+    "image": "/assets/images/glossary/mesopleura.png"
+  },
+  "mesoscudelo": {
+    "definition": "Ver escutelo.",
+    "image": null
+  },
+  "mesoscudo": {
+    "definition": "O mesonoto, excluindo o escutelo; em grupos com articulação transescudal, a porção do mesonoto anterior à articulação; o mesoscudo geralmente está dividido por um notáulo em uma parte medial e dois lóbulos laterais (ver também escudo).",
+    "image": "/assets/images/glossary/mesoscudo.png"
   },
   "mesossoma": {
-    "definition": "Região mediana do corpo das vespas (Hymenoptera). Inclui o propódeo fusionado ao tórax verdadeiro.",
+    "definition": "Em Apocrita, o tórax mais o propódeo (ver tórax).",
+    "image": "/assets/images/glossary/mesossoma.png"
+  },
+  "mesosterno": {
+    "definition": "O esterno do mesotórax, geralmente invaginado e não visível, mas às vezes usado de forma imprópria como um termo geral para a superfície ventral do mesotórax.",
+    "image": "/assets/images/glossary/mesosterno.png"
+  },
+  "mesotórax": {
+    "definition": "A segunda e maior das três subdivisões primárias do tórax; porta o par médio de patas e, quando presentes, as asas anteriores.",
+    "image": "/assets/images/glossary/mesotórax.png"
+  },
+  "meta": {
+    "definition": "Prefixo grego que significa posterior; usado latinizado.",
     "image": null
   },
-  "pedicelo": {
-    "definition": "Estrutura estreita que une o tórax ao abdômen. Nos Hymenoptera pode ter um nó (pecíolo) ou dois (pecíolo + pós-pecíolo).",
-    "image": null
+  "metanoto": {
+    "definition": "Parte dorsal do metatórax.",
+    "image": "/assets/images/glossary/metanoto.png"
   },
-  "áptera": {
-    "definition": "Sem asas. Fêmeas de Mutillidae são ápteras e apresentam mimetismo com formigas.",
-    "image": null
+  "metapleura": {
+    "definition": "Partes lateral e ventral do metatórax.",
+    "image": "/assets/images/glossary/metapleura.png"
+  },
+  "metascudelo": {
+    "definition": "Em <<Symphyta>>, a região mediana do metanoto.",
+    "image": "/assets/images/glossary/metascudelo.png"
   },
   "metassoma": {
-    "definition": "Abdômen das vespas. Corresponde aos segmentos posteriores ao propódeo nos Hymenoptera.",
+    "definition": "Em Apocrita, o abdome aparente, que consiste no abdome excluindo o primeiro segmento ou propódeo. O primeiro segmento metassomal (frequentemente encurtado, estreito e não claramente visível) é numerado 1 (ver abdome).",
+    "image": "/assets/images/glossary/metassoma.png"
+  },
+  "metasterno": {
+    "definition": "O esterno do metatórax, geralmente invaginado e não visível; às vezes usado como termo geral para a superfície ventral do metatórax.",
+    "image": "/assets/images/glossary/metasterno.png"
+  },
+  "metatórax": {
+    "definition": "A terceira das três subdivisões primárias do tórax, que porta o par de patas posteriores e, se presentes, as asas posteriores.",
+    "image": "/assets/images/glossary/metatórax.png"
+  },
+  "metepimero": {
+    "definition": "A subdivisão posterior da metapleura.",
+    "image": "/assets/images/glossary/metepimero.png"
+  },
+  "metepisterno": {
+    "definition": "A subdivisão anterior da metapleura.",
+    "image": "/assets/images/glossary/metepisterno.png"
+  },
+  "notáulo": {
+    "definition": "Sulco longitudinal geralmente oblíquo sobre o mesoscudo; frequentemente divide o mesoscudo em duas partes, mediana e lateral.",
+    "image": "/assets/images/glossary/notáulo.png"
+  },
+  "noto": {
+    "definition": "Tergo torácico, geralmente subdividido em escudo e escutelo.",
     "image": null
   },
-  "ferrão": {
-    "definition": "Estrutura de defesa derivada do ovipositor. Presente nas fêmeas de muitos Hymenoptera (abelhas, vespas, Mutillidae).",
+  "occipúcio": {
+    "definition": "A parte posterior da cabeça atrás do vértice (dorsalmente) e das genas (lateralmente). Se uma carena occipital está presente, o occipúcio é a área entre esta e o estreito posoccipúcio que rodeia o forame magno (ver também postgena).",
+    "image": "/assets/images/glossary/occipúcio.png"
+  },
+  "ocelo": {
+    "definition": "Um olho simples, consistindo em uma única faceta (omatídio) arredondada ou oval. Hymenoptera tem geralmente três ocelos: um mediano (anterior) e dois laterais (posteriores).",
+    "image": null
+  },
+  "omaulo": {
+    "definition": "Carena que se origina na base inferior do lóbulo pronotal e se estende posterior e ventralmente.",
+    "image": "/assets/images/glossary/omaulo.png"
+  },
+  "órbita": {
+    "definition": "A borda estreita ao redor do olho. As órbitas internas e externas são aquelas partes da cara mais a fronte e a gena, respectivamente, imediatamente atrás do olho.",
+    "image": null
+  },
+  "ovipositor": {
+    "definition": "Em fêmeas, uma estrutura delgada, pareada e entrelaçada, em forma de serra ou tubular, usada para a postura de ovos ou, em Aculeata, para ferroar, ou em alguns Ichneumonoidea para ambas as funções; pode estar escondido ou estendido até o ápice do corpo, com a proteção de um par de bainhas do ovipositor.",
+    "image": "/assets/images/glossary/ovipositor.png"
+  },
+  "palpos": {
+    "definition": "Apêndices sensoriais pareados de maxilas e lábio; consta de um a seis segmentos e um a quatro segmentos, respectivamente.",
+    "image": "/assets/images/glossary/palpos.png"
+  },
+  "paraglossa": {
+    "definition": "Lóbulo lateral em par do lábio, articulado basalmente com o prementum, lateral à base da glossa.",
+    "image": "/assets/images/glossary/paraglossa.png"
+  },
+  "peças_bucais": {
+    "definition": "Apêndices da cabeça usados para alimentação, incluindo lábro, hipofaringe, mandíbulas, maxilas e lábio.",
     "image": null
   },
   "pecíolo": {
-    "definition": "Primeiro segmento estreitado da cintura dos Hymenoptera. Formigas e vespas apresentam um ou dois nós no pecíolo.",
+    "definition": "Parte do metassoma, geralmente primeiro segmento metassomal; em muitos Hymenoptera a união geralmente estreita, de lados paralelos, que une o metassoma ao propódeo.",
+    "image": "/assets/images/glossary/pecíolo.png"
+  },
+  "pedunculado": {
+    "definition": "Uma condição intermediária entre séssil e peciolado (ver também pecíolo).",
     "image": null
+  },
+  "pedicelo": {
+    "definition": "A segunda divisão primária ou segmento da antena; articula-se apicalmente com o flagelo e basalmente com o escapo.",
+    "image": "/assets/images/glossary/pedicelo.png"
+  },
+  "pestana_pronotal": {
+    "definition": "Borda anterior projetada do pronoto, frequentemente oculta pela cabeça.",
+    "image": "/assets/images/glossary/pestana_pronotal.png"
+  },
+  "placa_basitibial": {
+    "definition": "Em Apoidea, uma região pequena, plana, sem pelos, que se eleva sobre a superfície dorsal da metatibia em sua base.",
+    "image": null
+  },
+  "placa_humeral": {
+    "definition": "O esclerito anterior da asa na base da veia C, apical à tégula.",
+    "image": "/assets/images/glossary/placa_humeral.png"
+  },
+  "placa_lingual_posterior": {
+    "definition": "Um esclerito sobre a superfície posterior (ventral) da glossa.",
+    "image": "/assets/images/glossary/placa_lingual_posterior.png"
+  },
+  "placa_mesotrocantinal": {
+    "definition": "A parte ventral do mesotórax curvada em direção ao metasterno, abaixo da base da mesocoxa; visível apenas removendo a mesocoxa.",
+    "image": "/assets/images/glossary/placa_mesotrocantinal.png"
+  },
+  "placa_pigidia": {
+    "definition": "Área especializada do tergo do último segmento externamente visível do metassoma; geralmente achatada e delimitada lateralmente por carenas ou sulcos.",
+    "image": "/assets/images/glossary/placa_pigidia.png"
+  },
+  "placa_pronotal": {
+    "definition": "Em Cynipoidea, o disco dorsal do pronoto.",
+    "image": "/assets/images/glossary/placa_pronotal.png"
+  },
+  "pleura": {
+    "definition": "A parte lateral de um segmento do corpo, comumente do tórax, onde pode ocupar a área ventral anterior do protórax e as áreas laterais e ventrais do meso e metatórax.",
+    "image": "/assets/images/glossary/pleura.png"
+  },
+  "prega_claval": {
+    "definition": "Nas asas, um sulco anterior e paralelo à veia 1A, que se estende à reentrância claval da margem alar.",
+    "image": "/assets/images/glossary/prega_claval.png"
+  },
+  "postgena": {
+    "definition": "Parte inferior do occipúcio; quando a carena occipital está ausente, a gena e postgena formam uma estrutura contínua.",
+    "image": "/assets/images/glossary/postgena.png"
+  },
+  "posnoto": {
+    "definition": "Esclerito posterior do mesonoto e metanoto, atrás do escutelo. Em Apocrita raramente é visível, ou visível apenas como uma linha impressa à frente do propódeo.",
+    "image": "/assets/images/glossary/posnoto.png"
+  },
+  "posoccipúcio": {
+    "definition": "Área estreita que rodeia o forame magno, separada do occipúcio pelo sulco posoccipital.",
+    "image": "/assets/images/glossary/posoccipúcio.png"
+  },
+  "prementum": {
+    "definition": "Esclerito labial que se articula basalmente com o mentum e porta a glossa, paraglossa e apicalmente os palpos.",
+    "image": "/assets/images/glossary/prementum.png"
+  },
+  "prepecto": {
+    "definition": "Esclerito do tórax entre o pronoto e o mesepisterno (ver também epicnêmio).",
+    "image": "/assets/images/glossary/prepecto.png"
+  },
+  "prestigma": {
+    "definition": "Ápice alargado e esclerotizado de uma ou mais veias sobre a margem anterior da asa, basal à incisão costal e quase contínua com o estigma.",
+    "image": "/assets/images/glossary/prestigma.png"
+  },
+  "pretarso": {
+    "definition": "O segmento apical da pata, que porta as unhas e estruturas associadas (ver também arolio).",
+    "image": "/assets/images/glossary/pretarso.png"
+  },
+  "pro": {
+    "definition": "Prefixo latino que significa antes ou anterior.",
+    "image": null
+  },
+  "prognato": {
+    "definition": "Com a cabeça mais ou menos no mesmo plano do corpo (horizontal), de tal forma que as peças bucais estão dirigidas anteriormente (ver hipognato).",
+    "image": "/assets/images/glossary/prognato.png"
+  },
+  "pronoto": {
+    "definition": "O esclerito dorsal do protórax; em muitos Hymenoptera, ocupa também a parte dorsolateral ou lateral do protórax.",
+    "image": "/assets/images/glossary/pronoto.png"
+  },
+  "propleura": {
+    "definition": "A parte lateral do protórax. Em Hymenoptera, está deslocada de alguma forma pelo pronoto, de modo que ocupa uma posição oblíqua ventrolateral e anterior ao pronoto.",
+    "image": "/assets/images/glossary/propleura.png"
+  },
+  "propódeo": {
+    "definition": "Em Apocrita, o primeiro tergo do abdome, amplamente fundido (e imóvel) ao metanoto e a cada metapleura do tórax, e geralmente em união estreita e flexível com o restante do abdome (ver também abdome, metassoma, tórax).",
+    "image": "/assets/images/glossary/propódeo.png"
+  },
+  "prosterno": {
+    "definition": "Esclerito ventral do protórax, entre as propleuras.",
+    "image": "/assets/images/glossary/prosterno.png"
+  },
+  "protórax": {
+    "definition": "Primeira das três subdivisões primárias do tórax, composta pelo pronoto, a propleura e o prosterno.",
+    "image": "/assets/images/glossary/protórax.png"
+  },
+  "pubescência": {
+    "definition": "Conjunto de pelos curtos, densos e finos sobre o corpo.",
+    "image": null
+  },
+  "ponte_hipostomal": {
+    "definition": "A porção posterior esclerotizada da cabeça que às vezes separa o forame magno da cavidade oral.",
+    "image": "/assets/images/glossary/ponte_hipostomal.png"
+  },
+  "pontuado": {
+    "definition": "Que porta fóveas ou pontos impressos finos.",
+    "image": null
+  },
+  "quela": {
+    "definition": "Em Dryinidae, um tarso modificado no qual o tarsômero apical forma uma estrutura de apreensão em oposição à unha tarsal; uma espécie de pinça.",
+    "image": null
+  },
+  "radícula": {
+    "definition": "Parte basal do escapo, frequentemente bem definida por uma constrição; articula-se com o tórulo.",
+    "image": "/assets/images/glossary/radícula.png"
+  },
+  "recumbente": {
+    "definition": "Cerdas ou pelos que repousam paralelos à superfície do corpo.",
+    "image": null
+  },
+  "reticulado": {
+    "definition": "Coberto com uma rede ou trama de linhas.",
+    "image": null
+  },
+  "rostro": {
+    "definition": "Superfície anterior da cabeça entre os olhos compostos, desde a cavidade oral até o ocelo anterior.",
+    "image": "/assets/images/glossary/rostro.png"
+  },
+  "seda": {
+    "definition": "Uma extensão sensível, delgada, em forma de pelo da cutícula, conectada à parede do corpo por um alvéolo.",
+    "image": null
+  },
+  "segmento": {
+    "definition": "Anel ou subdivisão do corpo ou de um apêndice entre áreas flexíveis, que porta músculos intrínsecos.",
+    "image": "/assets/images/glossary/segmento.png"
+  },
+  "sensila": {
+    "definition": "Um órgão de sentido, como uma cerda, ou uma unidade estrutural de um órgão de sentido composto.",
+    "image": null
+  },
+  "sensila_placoide": {
+    "definition": "Uma estrutura sensorial alongada em forma de placa, ou arredondada em forma de teto ou sulco; geralmente mencionada em referência aos flagelômeros.",
+    "image": "/assets/images/glossary/sensila_placoide.png"
+  },
+  "séssil": {
+    "definition": "Uma estrutura unida a outra, sem constrição aparente (ver pedunculado, peciolado).",
+    "image": null
+  },
+  "sub": {
+    "definition": "Prefixo latino que significa abaixo; também usado significando quase (por exemplo, subapical).",
+    "image": null
+  },
+  "submentum": {
+    "definition": "O esclerito basal do lábio que se articula apicalmente com o mentum; em Apoidea, um esclerito frequentemente em forma de V (comumente chamado lorum) com um braço que se articula com cada cardo e no meio se articula com o mentum.",
+    "image": "/assets/images/glossary/submentum.png"
+  },
+  "sulco": {
+    "definition": "Impressão linear sobre um esclerito (ver também sutura).",
+    "image": null
+  },
+  "sulco_episternal": {
+    "definition": "Ver sulco mesepisternal.",
+    "image": null
+  },
+  "sulco_epistomal": {
+    "definition": "Um sulco que define as margens lateral e dorsal do clípeo.",
+    "image": "/assets/images/glossary/sulco_epistomal.png"
+  },
+  "sulco_escrobal": {
+    "definition": "Um sulco horizontal sobre a mesopleura, que pode continuar anteriormente com o sulco episternal e termina posteriormente em direção ao sulco pleural.",
+    "image": "/assets/images/glossary/sulco_escrobal.png"
+  },
+  "sulco_mesepisternal": {
+    "definition": "Um sulco da mesopleura, que se estende ventralmente a partir de uma fóvea abaixo da base da asa anterior e, quando completo, alcança a margem anteroventral do mesotórax.",
+    "image": "/assets/images/glossary/sulco_mesepisternal.png"
+  },
+  "sulco_pleural": {
+    "definition": "Sulco sobre a mesopleura e metapleura, que se estende entre a base da asa e a articulação da coxa; separa o episterno do epimero.",
+    "image": "/assets/images/glossary/sulco_pleural.png"
+  },
+  "sulco_subantenal": {
+    "definition": "Em Apiformes, um ou dois sulcos finos entre o tórulo e o clípeo.",
+    "image": "/assets/images/glossary/sulco_subantenal.png"
+  },
+  "sulco_subocular": {
+    "definition": "Um sulco que se estende desde a margem ventral do olho até a articulação anterior ou facial da mandíbula.",
+    "image": "/assets/images/glossary/sulco_subocular.png"
+  },
+  "sutura": {
+    "definition": "Uma linha ou área membranosa sobre a cutícula que indica a união de duas placas ou escleritos inicialmente separados.",
+    "image": "/assets/images/glossary/sutura.png"
+  },
+  "sutura_notopleural": {
+    "definition": "Um sulco que separa o mesonoto da mesopleura.",
+    "image": null
+  },
+  "tarso": {
+    "definition": "O quinto segmento da pata, unido basalmente à tíbia e subdividido em tarsômeros.",
+    "image": "/assets/images/glossary/tarso.png"
+  },
+  "tarsômero": {
+    "definition": "Uma subdivisão do tarso; cada tarso porta de 3 a 5 tarsômeros.",
+    "image": "/assets/images/glossary/tarsômero.png"
+  },
+  "tégula": {
+    "definition": "Um esclerito pequeno em forma de escama que cobre a base da asa anterior, basal à placa umeral.",
+    "image": "/assets/images/glossary/tégula.png"
+  },
+  "tergo": {
+    "definition": "Esclerito dorsal de um segmento corporal, que pode estar subdividido em tergitos; especificamente utilizado para o abdome/metassoma (ver laterotergito).",
+    "image": "/assets/images/glossary/tergo.png"
+  },
+  "tergito": {
+    "definition": "Subdivisão esclerotizada de um tergo, limitada por sulcos, áreas ou linhas membranosas (ver laterotergito, tergo).",
+    "image": null
+  },
+  "tíbia": {
+    "definition": "Quarto segmento da pata, entre o fêmur e o tarso.",
+    "image": "/assets/images/glossary/tíbia.png"
+  },
+  "tirídio": {
+    "definition": "Ver gastrocelo.",
+    "image": null
+  },
+  "tórax": {
+    "definition": "Divisão principal do corpo, entre a cabeça e o abdome, à qual estão unidas as patas (ver mesossoma).",
+    "image": "/assets/images/glossary/tórax.png"
+  },
+  "tórulo": {
+    "definition": "Alvéolos em par, na frente da cabeça, sobre os quais se articulam os escapos.",
+    "image": "/assets/images/glossary/tórulo.png"
+  },
+  "trocantelo": {
+    "definition": "O extremo basal do fêmur que se apresenta como um segundo segmento do trocânter.",
+    "image": "/assets/images/glossary/trocantelo.png"
+  },
+  "trocânter": {
+    "definition": "O segundo segmento de cada pata, entre a coxa e o fêmur.",
+    "image": "/assets/images/glossary/trocânter.png"
+  },
+  "truncado": {
+    "definition": "Cortado na ponta.",
+    "image": null
+  },
+  "unco": {
+    "definition": "Em Chalcidoidea, um toco ou cepa curto e estreito próximo ao ápice da veia estigmal, dirigido em direção à veia pós-marginal.",
+    "image": "/assets/images/glossary/unco.png"
+  },
+  "veia": {
+    "definition": "Espessamentos estreitos, geralmente escuros, de uma asa que surgem da base alar e se ramificam em direção ao ápice (ver também veia nebulosa, veia espectral, veia tubular).",
+    "image": null
+  },
+  "veia_adventícia": {
+    "definition": "Veia que não pode ser homologada com uma veia padrão.",
+    "image": null
+  },
+  "veia_espectral": {
+    "definition": "Uma veia da asa visível apenas por uma carena ou sulco sobre a superfície; sem traços de pigmentos e detectável apenas com luz refletida (ver veia tubular, veia nebulosa).",
+    "image": null
+  },
+  "veia_nebulosa": {
+    "definition": "Uma veia alar uniformemente pigmentada (sem zonas escuras em suas margens), sem estrutura tubular; pode ser observada com luz refletida ou transmitida (ver veia espectral, veia tubular).",
+    "image": null
+  },
+  "veia_tubular": {
+    "definition": "Uma veia pigmentada da asa, oca e portanto de aparência mais escura lateralmente e clara medialmente; pode ser vista com luz refletida e transmitida (ver veias espectral, veia nebulosa).",
+    "image": null
+  },
+  "bainha_do_ovipositor": {
+    "definition": "Uma estrutura em par, esclerotizada, que guarda a parte externa do ovipositor.",
+    "image": "/assets/images/glossary/bainha_do_ovipositor.png"
+  },
+  "vértice": {
+    "definition": "Parte superior da cabeça entre os olhos, desde a margem anterior e os ocelos médios até o occipúcio.",
+    "image": "/assets/images/glossary/vértice.png"
+  },
+  "volsela": {
+    "definition": "Apêndice em par, médio, da genitália masculina.",
+    "image": "/assets/images/glossary/volsela.png"
   }
 }
