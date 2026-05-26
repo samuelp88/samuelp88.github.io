@@ -6,7 +6,9 @@
   },
   "step_1": {
     "trait_description": "Desenvolvimento das asas",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_1.jpg"
+    ],
     "options": [
       {
         "id": "opt_1a",
@@ -24,7 +26,9 @@
   },
   "step_2": {
     "trait_description": "Separação das metacoxas e venação alar",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_2.jpg"
+    ],
     "options": [
       {
         "id": "opt_2a",
@@ -42,7 +46,9 @@
   },
   "step_3": {
     "trait_description": "Expansão do mesosterno e lóbulo jugal",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_3.jpg"
+    ],
     "options": [
       {
         "id": "opt_3a",
@@ -60,7 +66,9 @@
   },
   "step_4": {
     "trait_description": "Cerdas espiniformes nas antenas e margem interna do olho",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_4.jpg"
+    ],
     "options": [
       {
         "id": "opt_4a",
@@ -78,7 +86,9 @@
   },
   "step_5": {
     "trait_description": "Primeiro segmento metassomal nodiforme",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_5.jpg"
+    ],
     "options": [
       {
         "id": "opt_5a",
@@ -96,7 +106,9 @@
   },
   "step_6": {
     "trait_description": "Linha de feltro ou sulco profundo no tergo/esterno metassomal 2",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_6.jpg"
+    ],
     "options": [
       {
         "id": "opt_6a",
@@ -114,7 +126,9 @@
   },
   "step_7": {
     "trait_description": "Posição do metasterno e forma do último esterno metassomal",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_7.jpg"
+    ],
     "options": [
       {
         "id": "opt_7a",
@@ -132,7 +146,9 @@
   },
   "step_8": {
     "trait_description": "Forma do último esterno metassomal e proporções do metassoma",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_8.jpg"
+    ],
     "options": [
       {
         "id": "opt_8a",
@@ -150,7 +166,9 @@
   },
   "step_9": {
     "trait_description": "Ápice posterior lateral do pronoto e célula discal da asa anterior",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_9.jpg"
+    ],
     "options": [
       {
         "id": "opt_9a",
@@ -168,7 +186,9 @@
   },
   "step_10": {
     "trait_description": "Posição da radícula e células submarginais",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_10.jpg"
+    ],
     "options": [
       {
         "id": "opt_10a",
@@ -186,7 +206,9 @@
   },
   "step_11": {
     "trait_description": "Intensidade do primeiro segmento nodiforme e comprimento do pronoto",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_11.jpg"
+    ],
     "options": [
       {
         "id": "opt_11a",
@@ -204,7 +226,9 @@
   },
   "step_12": {
     "trait_description": "Linha de feltro ou sulco no tergo/esterno metassomal 2 (sem segmentos nodiformes)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_12.jpg"
+    ],
     "options": [
       {
         "id": "opt_12a",
@@ -222,7 +246,9 @@
   },
   "step_13": {
     "trait_description": "Posição do metasterno e forma do último esterno (com linha de feltro, sem nodo)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_13.jpg"
+    ],
     "options": [
       {
         "id": "opt_13a",
@@ -240,7 +266,9 @@
   },
   "step_14": {
     "trait_description": "Forma do último esterno metassomal e proporções do metassoma (sem linha de feltro, sem nodo)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_14.jpg"
+    ],
     "options": [
       {
         "id": "opt_14a",
@@ -258,7 +286,9 @@
   },
   "step_15": {
     "trait_description": "Ápice posterior lateral do pronoto e célula discal (asas, sem linha de feltro, sem nodo)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_15.jpg"
+    ],
     "options": [
       {
         "id": "opt_15a",
@@ -276,7 +306,9 @@
   },
   "step_16": {
     "trait_description": "Sulco oblíquo no mesepisterno e esporão tibial posterior",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_16.jpg"
+    ],
     "options": [
       {
         "id": "opt_16a",
@@ -294,7 +326,9 @@
   },
   "step_17": {
     "trait_description": "Células submarginais e posição do tórulo",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_17.jpg"
+    ],
     "options": [
       {
         "id": "opt_17a",
@@ -312,7 +346,9 @@
   },
   "step_18": {
     "trait_description": "Expansão do mesosterno (espécimes ápteros/braquípteros)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_18.jpg"
+    ],
     "options": [
       {
         "id": "opt_18a",
@@ -330,7 +366,9 @@
   },
   "step_19": {
     "trait_description": "Superfície posterior da cabeça e alargamento do profêmur",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_19.jpg"
+    ],
     "options": [
       {
         "id": "opt_19a",
@@ -348,7 +386,9 @@
   },
   "step_20": {
     "trait_description": "Sulco longitudinal profundo ou linhas de feltro no tergo/esterno 2 (ápteros)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_20.jpg"
+    ],
     "options": [
       {
         "id": "opt_20a",
@@ -366,7 +406,9 @@
   },
   "step_21": {
     "trait_description": "Posição do metasterno e mobilidade do pronoto (ápteros, com linha de feltro)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_21.jpg"
+    ],
     "options": [
       {
         "id": "opt_21a",
@@ -384,7 +426,9 @@
   },
   "step_22": {
     "trait_description": "Primeiro segmento metassomal nodiforme (ápteros, sem linha de feltro)",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_22.jpg"
+    ],
     "options": [
       {
         "id": "opt_22a",
@@ -402,7 +446,9 @@
   },
   "step_23": {
     "trait_description": "Posição da radícula, comprimento do escapo e glândula metapleural",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_23.jpg"
+    ],
     "options": [
       {
         "id": "opt_23a",
@@ -420,7 +466,9 @@
   },
   "step_24": {
     "trait_description": "Sutura entre metanoto e mesonoto e forma do mesossoma",
-    "images": [],
+    "images": [
+      "/assets/images/vespoidea/step_24.jpg"
+    ],
     "options": [
       {
         "id": "opt_24a",
