@@ -1,0 +1,1000 @@
+{
+  "meta": {
+    "id": "insecta",
+    "name": "Insetos do Brasil — Ordens (adultos) [Constantino 2024]",
+    "taxonomic_level": "Ordem",
+    "description": "Chave para as ordens de insetos adultos",
+    "source": "Constantino, R. 2024. Cap. 8, Chave para ordens de insetos (adultos), pp. 137-140. In: Rafael et al. (eds), Insetos do Brasil: Diversidade e Taxonomia, 2ª ed., INPA."
+  },
+  "step_1": {
+    "trait_description": "Presença e funcionalidade das asas",
+    "options": [
+      {
+        "id": "opt_1a",
+        "description": "Asas ausentes ou reduzidas, não funcionais",
+        "next_step": "step_2",
+        "taxon_result": null,
+        "figures": [
+          "9.1-5",
+          "10.1",
+          "13.1",
+          "13.4-5",
+          "26.105-106",
+          "27.58",
+          "27.62"
+        ]
+      },
+      {
+        "id": "opt_1b",
+        "description": "Asas presentes e funcionais",
+        "next_step": "step_20",
+        "taxon_result": null,
+        "figures": [
+          "14.1",
+          "14.4",
+          "17.21",
+          "18.3",
+          "24.1",
+          "32.1"
+        ]
+      }
+    ]
+  },
+  "step_2": {
+    "trait_description": "Mobilidade, carapaça e aparelho bucal",
+    "options": [
+      {
+        "id": "opt_2a",
+        "description": "Inseto séssil ou de pouca mobilidade encontrado em plantas; corpo achatado ou arredondado, com ou sem carapaça ou cobertura de cera; aparelho bucal sugador; pernas presentes, ausentes ou reduzidas; se presentes, com tarsos monômeros e garras simples (fêmeas de cochonilhas)",
+        "next_step": null,
+        "taxon_result": "Hemiptera",
+        "figures": [
+          "25.6-23"
+        ]
+      },
+      {
+        "id": "opt_2b",
+        "description": "Inseto não séssil, sem carapaça ou cobertura de cera; aparelho bucal variável; pernas presentes e funcionais",
+        "next_step": "step_3",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_3": {
+    "trait_description": "Tipo de aparelho bucal (entognato vs. ectognato)",
+    "options": [
+      {
+        "id": "opt_3a",
+        "description": "Aparelho bucal do tipo entognato, oculto e alojado em uma cavidade da cápsula cefálica; olhos rudimentares ou ausentes; tarsos com apenas um segmento",
+        "next_step": "step_4",
+        "taxon_result": null,
+        "figures": [
+          "9.1-5",
+          "10.1",
+          "11.1"
+        ]
+      },
+      {
+        "id": "opt_3b",
+        "description": "Aparelho bucal do tipo ectognato, não alojado em uma cavidade da cabeça; olhos presentes ou ausentes; tarsos geralmente com mais de 2 segmentos",
+        "next_step": "step_6",
+        "taxon_result": null,
+        "figures": [
+          "1.7-10"
+        ]
+      }
+    ]
+  },
+  "step_4": {
+    "trait_description": "Presença de antenas e forma da perna anterior",
+    "options": [
+      {
+        "id": "opt_4a",
+        "description": "Antenas ausentes; perna anterior alongada e com muitas cerdas longas; abdômen com 12 segmentos; comprimento do corpo 0,5-2 mm",
+        "next_step": null,
+        "taxon_result": "Protura",
+        "figures": [
+          "10.1"
+        ]
+      },
+      {
+        "id": "opt_4b",
+        "description": "Antenas presentes; perna anterior não modificada; abdômen com 10 segmentos ou menos",
+        "next_step": "step_5",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_5": {
+    "trait_description": "Presença de cercos e do complexo colóforo/fúrcula",
+    "options": [
+      {
+        "id": "opt_5a",
+        "description": "Cercos presentes, longos e segmentados ou em forma de pinça; corpo estreito e alongado, abdômen com 10 segmentos, colóforo, fúrcula e retináculo ausentes; comprimento do corpo 1-58 mm",
+        "next_step": null,
+        "taxon_result": "Diplura",
+        "figures": [
+          "11.21-24"
+        ]
+      },
+      {
+        "id": "opt_5b",
+        "description": "Cercos ausentes; corpo curto; abdômen com no máximo 6 segmentos; colóforo, fúrcula e retináculo presentes; comprimento do corpo 0,25-6 mm",
+        "next_step": null,
+        "taxon_result": "Collembola",
+        "figures": [
+          "9.1-5"
+        ]
+      }
+    ]
+  },
+  "step_6": {
+    "trait_description": "Filamentos caudais e estilos ventrais",
+    "options": [
+      {
+        "id": "opt_6a",
+        "description": "Três filamentos caudais presentes (cercos e paracerco); abdômen com estilos ventrais",
+        "next_step": "step_7",
+        "taxon_result": null,
+        "figures": [
+          "12.1",
+          "13.1-2"
+        ]
+      },
+      {
+        "id": "opt_6b",
+        "description": "Cercos presentes ou ausentes; paracerco ausente; abdômen sem estilos ventrais",
+        "next_step": "step_8",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_7": {
+    "trait_description": "Olhos compostos e forma do tórax",
+    "options": [
+      {
+        "id": "opt_7a",
+        "description": "Olhos compostos grandes, geralmente contíguos; tórax arqueado; comprimento do corpo 6-20 mm",
+        "next_step": null,
+        "taxon_result": "Archaeognatha",
+        "figures": [
+          "12.1"
+        ]
+      },
+      {
+        "id": "opt_7b",
+        "description": "Olhos compostos pequenos ou ausentes; corpo achatado dorso-ventralmente; comprimento do corpo 2-15 mm",
+        "next_step": null,
+        "taxon_result": "Zygentoma",
+        "figures": [
+          "13.1",
+          "13.4-5"
+        ]
+      }
+    ]
+  },
+  "step_8": {
+    "trait_description": "Constrição na base do abdômen",
+    "options": [
+      {
+        "id": "opt_8a",
+        "description": "Abdômen com constrição conspícua na base, formando uma cintura; tarsos pentâmeros; aparelho bucal mastigador; antena geniculada ou filiforme (formigas e vespas ápteras)",
+        "next_step": null,
+        "taxon_result": "Hymenoptera",
+        "figures": [
+          "27.58",
+          "27.62"
+        ]
+      },
+      {
+        "id": "opt_8b",
+        "description": "Abdômen sem constrição na base; tarsos, aparelho bucal e antenas variáveis",
+        "next_step": "step_9",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_9": {
+    "trait_description": "Presença de cercos e tipo de antena (ortopteroides)",
+    "options": [
+      {
+        "id": "opt_9a",
+        "description": "Cercos presentes; aparelho bucal mastigador; antenas longas, filiformes ou moniliformes (ortopteroides)",
+        "next_step": "step_10",
+        "taxon_result": null,
+        "figures": [
+          "16.4",
+          "19.76",
+          "20.7",
+          "21.32",
+          "23.15",
+          "23.19-24"
+        ]
+      },
+      {
+        "id": "opt_9b",
+        "description": "Cercos ausentes; aparelho bucal e antenas variáveis",
+        "next_step": "step_16",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_10": {
+    "trait_description": "Número de segmentos dos tarsos",
+    "options": [
+      {
+        "id": "opt_10a",
+        "description": "Tarsos pentâmeros",
+        "next_step": "step_11",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_10b",
+        "description": "Tarsos com 2-4 segmentos",
+        "next_step": "step_12",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_11": {
+    "trait_description": "Forma do corpo e do pronoto",
+    "options": [
+      {
+        "id": "opt_11a",
+        "description": "Corpo achatado dorso-ventralmente; pronoto cobrindo boa parte da cabeça em vista dorsal; tarsos pentâmeros; comprimento 5-90 mm (baratas ápteras)",
+        "next_step": null,
+        "taxon_result": "Blattaria",
+        "figures": [
+          "23.1-6"
+        ]
+      },
+      {
+        "id": "opt_11b",
+        "description": "Corpo alongado e estreito, em forma de graveto; comprimento 17-340 mm",
+        "next_step": null,
+        "taxon_result": "Phasmatodea",
+        "figures": [
+          "21.32-35"
+        ]
+      }
+    ]
+  },
+  "step_12": {
+    "trait_description": "Perna posterior saltadora e forma do pronoto",
+    "options": [
+      {
+        "id": "opt_12a",
+        "description": "Perna posterior saltadora, com o fêmur dilatado; pronoto dobrado lateralmente, cobrindo a região pleural; tarsos com 3-4 segmentos; comprimento do corpo 5-150 mm",
+        "next_step": null,
+        "taxon_result": "Orthoptera",
+        "figures": [
+          "19.11",
+          "19.76"
+        ]
+      },
+      {
+        "id": "opt_12b",
+        "description": "Perna posterior não saltadora; pronoto não dobrado lateralmente",
+        "next_step": "step_13",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_13": {
+    "trait_description": "Número de artículos dos tarsos e olho composto",
+    "options": [
+      {
+        "id": "opt_13a",
+        "description": "Tarsos trímeros; olho composto bem desenvolvido",
+        "next_step": "step_14",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_13b",
+        "description": "Tarsos dímeros ou tetrâmeros; olho composto ausente ou vestigial",
+        "next_step": "step_15",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_14": {
+    "trait_description": "Forma dos cercos",
+    "options": [
+      {
+        "id": "opt_14a",
+        "description": "Cercos grandes, não segmentados, em forma de pinça; comprimento 3-35 mm",
+        "next_step": null,
+        "taxon_result": "Dermaptera",
+        "figures": [
+          "17.10"
+        ]
+      },
+      {
+        "id": "opt_14b",
+        "description": "Cercos com dois segmentos, não em forma de pinça; basitarso anterior muito dilatado; comprimento 4-30 mm",
+        "next_step": null,
+        "taxon_result": "Embioptera",
+        "figures": [
+          "20.7"
+        ]
+      }
+    ]
+  },
+  "step_15": {
+    "trait_description": "Tarsos, cercos e número de artículos da antena",
+    "options": [
+      {
+        "id": "opt_15a",
+        "description": "Tarsos dímeros; cercos com apenas um segmento; antena com nove artículos; comprimento 2-4 mm",
+        "next_step": null,
+        "taxon_result": "Zoraptera",
+        "figures": [
+          "16.4"
+        ]
+      },
+      {
+        "id": "opt_15b",
+        "description": "Tarsos tetrâmeros; cercos dímeros; antena com 10-21 artículos; comprimento 3-20 mm (operários e soldados de cupins)",
+        "next_step": null,
+        "taxon_result": "Blattaria",
+        "figures": [
+          "23.22-24"
+        ]
+      }
+    ]
+  },
+  "step_16": {
+    "trait_description": "Número de segmentos dos tarsos e aparelho bucal",
+    "options": [
+      {
+        "id": "opt_16a",
+        "description": "Tarsos pentâmeros; aparelho bucal sugador; antenas curtas",
+        "next_step": "step_17",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_16b",
+        "description": "Tarsos com 1-3 segmentos; aparelho bucal e antenas variáveis",
+        "next_step": "step_18",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_17": {
+    "trait_description": "Direção do achatamento do corpo e pernas",
+    "options": [
+      {
+        "id": "opt_17a",
+        "description": "Corpo achatado lateralmente; pernas longas, saltadoras",
+        "next_step": null,
+        "taxon_result": "Siphonaptera",
+        "figures": [
+          "35.1"
+        ]
+      },
+      {
+        "id": "opt_17b",
+        "description": "Corpo achatado dorso-ventralmente; pernas curtas",
+        "next_step": null,
+        "taxon_result": "Diptera",
+        "figures": [
+          "36.73"
+        ]
+      }
+    ]
+  },
+  "step_18": {
+    "trait_description": "Forma do aparelho bucal (rostro)",
+    "options": [
+      {
+        "id": "opt_18a",
+        "description": "Aparelho bucal sugador formando um rostro alongado e segmentado",
+        "next_step": null,
+        "taxon_result": "Hemiptera",
+        "figures": [
+          "25.1",
+          "25.3"
+        ]
+      },
+      {
+        "id": "opt_18b",
+        "description": "Aparelho bucal variável, nunca formando um rostro longo e segmentado",
+        "next_step": "step_19",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_19": {
+    "trait_description": "Terminação das pernas (arólio vs. garras)",
+    "options": [
+      {
+        "id": "opt_19a",
+        "description": "Pernas terminando no arólio, que forma uma vesícula eversível; garras reduzidas; aparelho bucal sugador cônico, curto e não segmentado (tripes ápteros)",
+        "next_step": null,
+        "taxon_result": "Thysanoptera",
+        "figures": [
+          "24.26"
+        ]
+      },
+      {
+        "id": "opt_19b",
+        "description": "Pernas terminando em garras bem desenvolvidas; aparelho bucal variável",
+        "next_step": null,
+        "taxon_result": "Psocodea",
+        "figures": [
+          "26.7",
+          "26.64-103"
+        ]
+      }
+    ]
+  },
+  "step_20": {
+    "trait_description": "Textura da asa anterior",
+    "options": [
+      {
+        "id": "opt_20a",
+        "description": "Com um ou dois pares de asas de textura uniforme, não engrossadas nem endurecidas (mas podem estar cobertas de pelos ou escamas, e apresentar pigmentação)",
+        "next_step": "step_21",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_20b",
+        "description": "Asa anterior engrossada ou endurecida, pelo menos na região proximal; asa posterior membranosa, claramente mais fina que a anterior; quando em repouso, asa anterior cobre a asa posterior e pelo menos parte do abdômen",
+        "next_step": "step_40",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_21": {
+    "trait_description": "Número de pares de asas (textura uniforme)",
+    "options": [
+      {
+        "id": "opt_21a",
+        "description": "Com apenas um par de asas",
+        "next_step": "step_22",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_21b",
+        "description": "Com dois pares de asas",
+        "next_step": "step_26",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_22": {
+    "trait_description": "Asa posterior em halteres",
+    "options": [
+      {
+        "id": "opt_22a",
+        "description": "Asas posteriores em forma de halteres; tarsos pentâmeros; aparelho bucal sugador (atrofiado em algumas espécies)",
+        "next_step": null,
+        "taxon_result": "Diptera",
+        "figures": [
+          "36.6"
+        ]
+      },
+      {
+        "id": "opt_22b",
+        "description": "Asas posteriores não em forma de halteres; tarsos com 1-5 segmentos; aparelho bucal variável",
+        "next_step": "step_23",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_23": {
+    "trait_description": "Presença de cercos",
+    "options": [
+      {
+        "id": "opt_23a",
+        "description": "Cercos presentes",
+        "next_step": "step_24",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_23b",
+        "description": "Cercos ausentes",
+        "next_step": "step_25",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_24": {
+    "trait_description": "Perna posterior saltadora e aparelho bucal",
+    "options": [
+      {
+        "id": "opt_24a",
+        "description": "Pernas posteriores saltadoras; aparelho bucal mastigador; antena mais longa que a cabeça, cercos curtos; tarsos com 2-3 segmentos",
+        "next_step": null,
+        "taxon_result": "Orthoptera",
+        "figures": [
+          "19.1",
+          "19.63"
+        ]
+      },
+      {
+        "id": "opt_24b",
+        "description": "Pernas posteriores não saltadoras; aparelho bucal atrofiado; antena muito curta, em forma de cerda; cercos longos; tarsos com 4-5 segmentos",
+        "next_step": null,
+        "taxon_result": "Ephemeroptera",
+        "figures": [
+          "14.61-66"
+        ]
+      }
+    ]
+  },
+  "step_25": {
+    "trait_description": "Forma da asa anterior e antena (sem cercos)",
+    "options": [
+      {
+        "id": "opt_25a",
+        "description": "Asa anterior em forma de halteres; asa posterior bem desenvolvida; antena flabelada",
+        "next_step": null,
+        "taxon_result": "Strepsiptera",
+        "figures": [
+          "30.1-3"
+        ]
+      },
+      {
+        "id": "opt_25b",
+        "description": "Asa anterior bem desenvolvida; asa posterior vestigial; antena filiforme; aparelho bucal atrofiado; tarsos com um segmento (macho de cochonilha)",
+        "next_step": null,
+        "taxon_result": "Hemiptera",
+        "figures": []
+      }
+    ]
+  },
+  "step_26": {
+    "trait_description": "Cobertura de escamas/pelos e probóscide",
+    "options": [
+      {
+        "id": "opt_26a",
+        "description": "Asas cobertas de escamas ou pelos, pelo menos parcialmente; aparelho bucal em forma de uma probóscide enrolada ou atrofiado; antenas longas",
+        "next_step": "step_27",
+        "taxon_result": null,
+        "figures": [
+          "33.1",
+          "32.1"
+        ]
+      },
+      {
+        "id": "opt_26b",
+        "description": "Asas não cobertas por escamas nem pelos; aparelho bucal mastigador, sugador ou atrofiado, nunca em forma de uma probóscide enrolada; antenas curtas ou longas",
+        "next_step": "step_28",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_27": {
+    "trait_description": "Tipo de cobertura das asas (escamas vs. pelos)",
+    "options": [
+      {
+        "id": "opt_27a",
+        "description": "Asas cobertas de escamas; aparelho bucal em forma de uma probóscide enrolada, raramente atrofiado",
+        "next_step": null,
+        "taxon_result": "Lepidoptera",
+        "figures": [
+          "33.1"
+        ]
+      },
+      {
+        "id": "opt_27b",
+        "description": "Asas cobertas de pelos; aparelho bucal atrofiado",
+        "next_step": null,
+        "taxon_result": "Trichoptera",
+        "figures": [
+          "32.1"
+        ]
+      }
+    ]
+  },
+  "step_28": {
+    "trait_description": "Número de segmentos dos tarsos (2 pares de asas)",
+    "options": [
+      {
+        "id": "opt_28a",
+        "description": "Tarsos com 1-3 segmentos",
+        "next_step": "step_29",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_28b",
+        "description": "Tarsos com 4-5 segmentos",
+        "next_step": "step_35",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_29": {
+    "trait_description": "Forma do aparelho bucal (probóscide vs. mandibulado)",
+    "options": [
+      {
+        "id": "opt_29a",
+        "description": "Aparelho bucal sugador em forma de uma probóscide longa e segmentada ou cônica; cercos ausentes",
+        "next_step": "step_30",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_29b",
+        "description": "Aparelho bucal mandibulado ou atrofiado; cercos ausentes ou presentes",
+        "next_step": "step_31",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_30": {
+    "trait_description": "Comprimento do aparelho bucal e terminação das pernas",
+    "options": [
+      {
+        "id": "opt_30a",
+        "description": "Aparelho bucal longo e segmentado; garras bem desenvolvidas; asas não franjadas",
+        "next_step": null,
+        "taxon_result": "Hemiptera",
+        "figures": [
+          "25.1-2",
+          "25.30-31"
+        ]
+      },
+      {
+        "id": "opt_30b",
+        "description": "Aparelho bucal curto e cônico; garras reduzidas; pernas terminando no arólio, que forma uma vesícula eversível (tripes alados)",
+        "next_step": null,
+        "taxon_result": "Thysanoptera",
+        "figures": [
+          "24.1"
+        ]
+      }
+    ]
+  },
+  "step_31": {
+    "trait_description": "Forma da antena e do abdômen",
+    "options": [
+      {
+        "id": "opt_31a",
+        "description": "Antenas curtas, em forma de cerda; olhos grandes e salientes; abdômen longo e fino",
+        "next_step": null,
+        "taxon_result": "Odonata",
+        "figures": [
+          "15.1-2"
+        ]
+      },
+      {
+        "id": "opt_31b",
+        "description": "Antenas longas, filiformes ou moniliformes; olhos e abdômen variáveis",
+        "next_step": "step_32",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_32": {
+    "trait_description": "Segmentação dos cercos",
+    "options": [
+      {
+        "id": "opt_32a",
+        "description": "Cercos segmentados; antenas longas",
+        "next_step": "step_33",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_32b",
+        "description": "Cercos não segmentados ou ausentes",
+        "next_step": "step_34",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_33": {
+    "trait_description": "Basitarso anterior e tipo de antena (cercos segmentados)",
+    "options": [
+      {
+        "id": "opt_33a",
+        "description": "Cercos dímeros; basitarso anterior muito dilatado; antenas moniliformes",
+        "next_step": null,
+        "taxon_result": "Embioptera",
+        "figures": [
+          "20.8"
+        ]
+      },
+      {
+        "id": "opt_33b",
+        "description": "Cercos longos, com muitos segmentos; basitarso anterior não dilatado; antenas filiformes",
+        "next_step": null,
+        "taxon_result": "Plecoptera",
+        "figures": [
+          "18.3"
+        ]
+      }
+    ]
+  },
+  "step_34": {
+    "trait_description": "Presença de cercos e clípeo (cercos não segmentados)",
+    "options": [
+      {
+        "id": "opt_34a",
+        "description": "Cercos ausentes; clípeo inflado; antena filiforme; tarso com 2-3 segmentos",
+        "next_step": null,
+        "taxon_result": "Psocodea",
+        "figures": [
+          "26.1-6"
+        ]
+      },
+      {
+        "id": "opt_34b",
+        "description": "Cercos presentes; antena moniliforme; tarsos dímeros",
+        "next_step": null,
+        "taxon_result": "Zoraptera",
+        "figures": [
+          "16.5"
+        ]
+      }
+    ]
+  },
+  "step_35": {
+    "trait_description": "Segmentação dos cercos (tarsos 4-5)",
+    "options": [
+      {
+        "id": "opt_35a",
+        "description": "Cercos segmentados",
+        "next_step": "step_36",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_35b",
+        "description": "Cercos não segmentados ou ausentes",
+        "next_step": "step_37",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_36": {
+    "trait_description": "Forma da antena e aparelho bucal (cercos segmentados)",
+    "options": [
+      {
+        "id": "opt_36a",
+        "description": "Antena curta, em forma de cerda; asa posterior muito menor que a anterior; aparelho bucal atrofiado",
+        "next_step": null,
+        "taxon_result": "Ephemeroptera",
+        "figures": [
+          "14.4"
+        ]
+      },
+      {
+        "id": "opt_36b",
+        "description": "Antena longa, moniliforme ou filiforme; asas de tamanho e forma semelhantes; aparelho bucal mandibulado funcional (cupins alados)",
+        "next_step": null,
+        "taxon_result": "Blattaria",
+        "figures": [
+          "23.19-20"
+        ]
+      }
+    ]
+  },
+  "step_37": {
+    "trait_description": "Proporção entre asas e constrição do abdômen",
+    "options": [
+      {
+        "id": "opt_37a",
+        "description": "Asa posterior muito menor que a anterior; asa anterior com menos de 20 células; abdômen geralmente com um estreitamento, formando uma cintura",
+        "next_step": null,
+        "taxon_result": "Hymenoptera",
+        "figures": [
+          "27.28-57"
+        ]
+      },
+      {
+        "id": "opt_37b",
+        "description": "Asas anterior e posterior aproximadamente do mesmo tamanho e formato; asa anterior com mais de 20 células; abdômen sem estreitamento",
+        "next_step": "step_38",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_38": {
+    "trait_description": "Forma da cabeça (rostro) e venação da asa",
+    "options": [
+      {
+        "id": "opt_38a",
+        "description": "Cabeça alongada, formando um rostro; região costal da asa anterior sem veias transversais; comprimento do corpo 14-24 mm",
+        "next_step": null,
+        "taxon_result": "Mecoptera",
+        "figures": [
+          "34.1"
+        ]
+      },
+      {
+        "id": "opt_38b",
+        "description": "Cabeça não alongada; região costal da asa anterior geralmente com muitas veias transversais",
+        "next_step": "step_39",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_39": {
+    "trait_description": "Largura da base da asa posterior",
+    "options": [
+      {
+        "id": "opt_39a",
+        "description": "Região basal da asa posterior mais larga na base que na asa anterior",
+        "next_step": null,
+        "taxon_result": "Megaloptera",
+        "figures": [
+          "28.4-8"
+        ]
+      },
+      {
+        "id": "opt_39b",
+        "description": "Região basal da asa posterior semelhante ou mais estreita que na asa anterior",
+        "next_step": null,
+        "taxon_result": "Neuroptera",
+        "figures": [
+          "29.2-8"
+        ]
+      }
+    ]
+  },
+  "step_40": {
+    "trait_description": "Venação da asa anterior e aparelho bucal (asas endurecidas)",
+    "options": [
+      {
+        "id": "opt_40a",
+        "description": "Asa anterior sem veias; asa posterior geralmente permanece dobrada e oculta sob a anterior quando em repouso; aparelho bucal mastigador",
+        "next_step": "step_41",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_40b",
+        "description": "Asa anterior com veias; aparelho bucal mastigador ou sugador",
+        "next_step": "step_42",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_41": {
+    "trait_description": "Forma dos cercos e cobertura da asa anterior",
+    "options": [
+      {
+        "id": "opt_41a",
+        "description": "Cercos grandes, em forma de pinça; asa anterior curta, cobrindo pequena parte do abdômen",
+        "next_step": null,
+        "taxon_result": "Dermaptera",
+        "figures": [
+          "17.20-21"
+        ]
+      },
+      {
+        "id": "opt_41b",
+        "description": "Cercos ausentes; asa anterior (élitro) de tamanho variável",
+        "next_step": null,
+        "taxon_result": "Coleoptera",
+        "figures": [
+          "31.2",
+          "31.141-156",
+          "31.589-632"
+        ]
+      }
+    ]
+  },
+  "step_42": {
+    "trait_description": "Aparelho bucal (rostro) e presença de cercos",
+    "options": [
+      {
+        "id": "opt_42a",
+        "description": "Aparelho bucal sugador em forma de rostro segmentado; cercos ausentes (Heteroptera)",
+        "next_step": null,
+        "taxon_result": "Hemiptera",
+        "figures": [
+          "28.104-255"
+        ]
+      },
+      {
+        "id": "opt_42b",
+        "description": "Aparelho bucal mastigador; cercos presentes",
+        "next_step": "step_43",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_43": {
+    "trait_description": "Forma e tamanho das coxas",
+    "options": [
+      {
+        "id": "opt_43a",
+        "description": "Coxas grandes, de formato aproximadamente triangular, mais longas que um terço do comprimento do fêmur; tarsos pentâmeros; cercos segmentados",
+        "next_step": "step_44",
+        "taxon_result": null,
+        "figures": []
+      },
+      {
+        "id": "opt_43b",
+        "description": "Coxas pequenas, muito mais curtas que o fêmur; tarsos com 2-5 segmentos; cercos segmentados ou simples",
+        "next_step": "step_45",
+        "taxon_result": null,
+        "figures": []
+      }
+    ]
+  },
+  "step_44": {
+    "trait_description": "Forma do corpo e da perna anterior",
+    "options": [
+      {
+        "id": "opt_44a",
+        "description": "Corpo largo e achatado; cabeça pelo menos parcialmente coberta pelo pronoto; perna anterior semelhante às outras; protórax curto (baratas)",
+        "next_step": null,
+        "taxon_result": "Blattaria",
+        "figures": [
+          "23.1-15"
+        ]
+      },
+      {
+        "id": "opt_44b",
+        "description": "Corpo estreito e não achatado; cabeça não coberta pelo pronoto; perna anterior raptorial, com espinhos grandes; protórax alongado",
+        "next_step": null,
+        "taxon_result": "Mantodea",
+        "figures": [
+          "22.1-6"
+        ]
+      }
+    ]
+  },
+  "step_45": {
+    "trait_description": "Perna posterior saltadora",
+    "options": [
+      {
+        "id": "opt_45a",
+        "description": "Perna posterior saltadora; com fêmur muito mais largo que a tíbia; cercos com 2-4 segmentos; pronoto grande, cobrindo parte da região lateral do tórax",
+        "next_step": null,
+        "taxon_result": "Orthoptera",
+        "figures": [
+          "19.1",
+          "19.13",
+          "19.19",
+          "19.44-60"
+        ]
+      },
+      {
+        "id": "opt_45b",
+        "description": "Perna posterior semelhante às outras; cercos pentâmeros; pronoto pequeno; corpo alongado, em forma de graveto (bicho-pau)",
+        "next_step": null,
+        "taxon_result": "Phasmatodea",
+        "figures": [
+          "21.54-55"
+        ]
+      }
+    ]
+  }
+}
